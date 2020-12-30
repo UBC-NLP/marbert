@@ -49,9 +49,9 @@ To  evaluate  our  models,   we  propose  **ArBench**,   a new benchmark for mul
 ***Results reported based on F<sub>1</sub><sup>NP</sup>.***
 ### (2) Social Meaning
 | **Dataset**        |   **Dataset (#classes)**  |  **mBERT** | **XLM-R<sub>B</sub>** | **XLM-R<sub>L</sub>** | **AraBERT** | **ARBERT** | **MARBERT** |
-|----------------|:---------------------:|:------:|:----------:|:-----------:|:-------:|:------:|:-------:|
-| Offensive (2)  | OSACT shared task (A) | 84.25 |   85.26  |    88.28  |  86.57 | 90.38 |  **92.41** |
-| Hate Speech(2) | OSACT shared task (B) | 72.81 |   71.33  |    79.31   |  78.89 | 83.02 |  **84.79**|
+|----------------|---------------------|:------:|:----------:|:-----------:|:-------:|:------:|:-------:|
+| Offensive (2)  | OSACT-A | 84.25 |   85.26  |    88.28  |  86.57 | 90.38 |  **92.41** |
+| Hate Speech(2) | OSACT-B | 72.81 |   71.33  |    79.31   |  78.89 | 83.02 |  **84.79**|
 | Dangerous (2)  |       Dangerous       | 62.66 |   62.76  |    65.01 |  64.37 | 63.21 |  **67.53** |
 | Sarcasm (2)    |       AraSarcasm      | 68.20 |   66.76  |    69.23  |  72.23 | 75.04 |  **76.30** |
 | Emotion (8)    |       AraNET<sub>Emo</sub>     | 65.79 |   70.67%   |    74.89   |  65.68 | 67.73% |  **75.83** |
