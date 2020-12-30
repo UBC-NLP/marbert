@@ -15,6 +15,14 @@ To  evaluate  our  models,   we  propose  **ArBench**,   a new benchmark for mul
 | Dataset (#classes) |  Cluster Task  |    Task   |  mBERT |XLM R<sub>B</sub>            | XLM R<sub>L</sub>         | AraBERT | ARBERT | MARBERT |
 |:------------------:|:--------------:|:---------:|:------:|:---------------------:|:-------------------:|:-------:|:------:|:-------:|
 |    Offensive (2)   | Soical Meaning | Offensive | 84.25 |         85.26        |        88.28       |  86.57 | 90.38 |  **92.41** |
+
+
+
+| Dataset (#classes) 	|  Cluster Task  	|    Task   	|  mBERT 	| XLM-R base            	| XLM-R large         	| AraBERT 	| ARBERT 	| MARBERT 	|
+|:------------------:	|:--------------:	|:---------:	|:------:	|:---------------------:	|:-------------------:	|:-------:	|:------:	|:-------:	|
+|    Offensive (2)   	| Soical Meaning 	| Offensive 	| 84.25% 	|         85.26%        	|        88.28%       	|  86.57% 	| 90.38% 	|  92.41% 	|
+
+
 ## Fine-tuning ARBERT and MARBERT on the ArBench datasets
  
  ```python
