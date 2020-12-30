@@ -29,7 +29,7 @@ To  evaluate  our  models,   we  propose  **ArBench**,   a new benchmark for mul
 | LABR (2)           | 91.20 |   91.23   |    92.20   |  91.97 | 92.51 |  **92.49** |
 | ASTD-B(2)          |  79.32 |   87.59   |    77.44   |  83.08 | 93.23 |  **96.24** |
 
-***Results reported based on Acc.***
+***Results reported based on Acc. score***
 
 | **Dataset (#classes)** |  **mBERT** | **XLM-R<sub>B</sub>** | **XLM-R<sub>L</sub>** | **AraBERT** | **ARBERT** | **MARBERT** |
 |--------------------|:------:|:----------:|:-----------:|:-------:|:------:|:-------:|
@@ -46,7 +46,7 @@ To  evaluate  our  models,   we  propose  **ArBench**,   a new benchmark for mul
 | AWATIF(4)                  | 60.50 | 63.50 | 68.50 | 66.50 | 71.50 | **72.50** |
 |  Twitter<sub>Abdullah</sub> (2)           | 81.50 | 91.00 | 92.00 | 89.50 | 91.50 | **95.00** |
 
-***Results reported based on F<sub>1</sub><sup>NP</sup>.***
+***Results reported based on F<sub>1</sub><sup>NP</sup> score.***
 ### (2) Social Meaning
 | **Dataset**        |   **Dataset (#classes)**  |  **mBERT** | **XLM-R<sub>B</sub>** | **XLM-R<sub>L</sub>** | **AraBERT** | **ARBERT** | **MARBERT** |
 |----------------|---------------------|:------:|:----------:|:-----------:|:-------:|:------:|:-------:|
@@ -59,19 +59,19 @@ To  evaluate  our  models,   we  propose  **ArBench**,   a new benchmark for mul
 | Age (3)        |       Arab_Tweet      | 56.35 |   59.73   |    53.60   |  57.72 | 58.95 |  **62.27** |
 | Gender (2)     |       Arab_Tweet      | 68.06|   71.00   |    71.14   |  67.75 | 69.86 |  **72.62** |
 
-***Results reported based on F<sub>1</sub>.***
+***Results reported based on F<sub>1</sub> score.***
 
 ### (3) Topic Classificatio
- **Dataset (#classes)** |  **mBERT** | **XLM-R<sub>B</sub>** | **XLM-R<sub>L</sub>** | **AraBERT** | **ARBERT** | **MARBERT** |
-|--------------------|:------:|:----------:|:-----------:|:-------:|:------:|:-------:|
+| **Dataset**        |   **Dataset (#classes)**  |  **mBERT** | **XLM-R<sub>B</sub>** | **XLM-R<sub>L</sub>** | **AraBERT** | **ARBERT** | **MARBERT** |
+|----------------|---------------------|:------:|:----------:|:-----------:|:-------:|:------:|:-------:|
 
 ### (4) Dialect Identification
- **Dataset (#classes)** |  **mBERT** | **XLM-R<sub>B</sub>** | **XLM-R<sub>L</sub>** | **AraBERT** | **ARBERT** | **MARBERT** |
-|--------------------|:------:|:----------:|:-----------:|:-------:|:------:|:-------:|
+| **Dataset**        |   **Dataset (#classes)**  |  **mBERT** | **XLM-R<sub>B</sub>** | **XLM-R<sub>L</sub>** | **AraBERT** | **ARBERT** | **MARBERT** |
+|----------------|---------------------|:------:|:----------:|:-----------:|:-------:|:------:|:-------:|
 
 ### (5) Named Entity Recogntion (NER)
- **Dataset (#classes)** |  **mBERT** | **XLM-R<sub>B</sub>** | **XLM-R<sub>L</sub>** | **AraBERT** | **ARBERT** | **MARBERT** |
-|--------------------|:------:|:----------:|:-----------:|:-------:|:------:|:-------:|
+| **Dataset**        |   **Dataset (#classes)**  |  **mBERT** | **XLM-R<sub>B</sub>** | **XLM-R<sub>L</sub>** | **AraBERT** | **ARBERT** | **MARBERT** |
+|----------------|---------------------|:------:|:----------:|:-----------:|:-------:|:------:|:-------:|
 
 ## Fine-tuning ARBERT and MARBERT on ArBench datasets
  
