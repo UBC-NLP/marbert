@@ -12,17 +12,34 @@ As shown in the below table, we compare with ARBERT with mBERT, XLM-R, AraBERT, 
 ## Models Evaluation
 To  evaluate  our  models,   we  propose  **ArBench**,   a new benchmark for multi-dialectal Arabic language understanding.  ***ArBench is built using 41 datasets targeting 5 different tasks/task clusters***, allowing us to offer a series of standardized experiments under rich conditions. When fine-tuned on ArBench,  ARBERT and MARBERT collectively achieve new SOTA  with sizeable margins compared to all existing models such as mBERT, XLM-R (Base and Large), and  AraBERT on 37 out of 45 classification tasks on the 41 datasets (82.22). 
 
-### Sentiment Analysis
+### (1) Sentiment Analysis
 
-| **Dataset (#classes)** | **SOTA** |  **mBERT** | **XLM-R<sub>B</sub>** | **XLM-R<sub>B</sub>** | **AraBERT** | **ARBERT** | **MARBERT** |
-|--------------------|:----:|:------:|:----------:|:-----------:|:-------:|:------:|:-------:|
-| AJGT (2)           | 93.8 | 86.67 |   89.44   |    91.94   |  92.22 | 94.44 |  **96.11** |
-| HARD (2)           | 96.2 | 95.54 |   95.74   |    95.96   |  95.89 | 96.12 |  **96.17** |
-| ArsenTD-LEV (5)    | 59.4 | 50.50 |   55.25   |    **62.00**  |  56.13 | 61.38 |  60.38 |
-| LABR (2)           | 86.7 | 91.20 |   91.23   |    92.20   |  91.97 | 92.51 |  **92.49** |
-| ASTD-B(2)          | 92.6 | 79.32 |   87.59   |    77.44   |  83.08 | 93.23 |  **96.24** |
+| **Dataset (#classes)** |  **mBERT** | **XLM-R<sub>B</sub>** | **XLM-R<sub>B</sub>** | **AraBERT** | **ARBERT** | **MARBERT** |
+|--------------------|:------:|:----------:|:-----------:|:-------:|:------:|:-------:|
+| AJGT (2)           | 86.67 |   89.44   |    91.94   |  92.22 | 94.44 |  **96.11** |
+| HARD (2)           |95.54 |   95.74   |    95.96   |  95.89 | 96.12 |  **96.17** |
+| ArsenTD-LEV (5)    | 50.50 |   55.25   |    **62.00**  |  56.13 | 61.38 |  60.38 |
+| LABR (2)           | 91.20 |   91.23   |    92.20   |  91.97 | 92.51 |  **92.49** |
+| ASTD-B(2)          |  79.32 |   87.59   |    77.44   |  83.08 | 93.23 |  **96.24** |
 
-***SOTA are results reported in AraBERT paper Antoun et al. (2020) based on Acc.***
+***Results reported based on Acc.***
+
+| **Dataset (#classes)** |  **mBERT** | **XLM-R<sub>B</sub>** | **XLM-R<sub>B</sub>** | **AraBERT** | **ARBERT** | **MARBERT** |
+|----------------------------|:-------:|:------:|:------:|:------:|:------:|:------:|:------:|
+| ArSAS (3)           | 87.50 | 90.00 | 91.50 | 91.00 | 92.00 | **93.00**|
+| ASTD (3)            | 67.00 | 60.67 | 67.67 | 72.00 | 76.50 | **78.00** |
+| SemEval (3)          | 57.00 | 64.00 | 67.00 | 62.00 | 69.00 | **71.00** |
+| AraNET<sub>Sent</sub> (2)       | 84.00 | 92.00 | 93.00 | 86.50 | 89.00 | **92.00** |
+| ArSarcasm<sub>Sent</sub> (3)        | 60.50 | 63.50 | 70.00 | 63.50 | 68.00 | **71.50** |
+| AraSenTi (noura) (3) | 89.50 | **92.00** | 93.50 | 91.00 | 90.00 | 90.00 |
+| BBN(3)                     | 55.50 | 69.50 | 46.50 | 70.00 | 76.50 | **79.00** |
+| SYTS(3)                    | 67.00 | 78.00 | 40.50 | 75.50 | **79.00** | 76.50 |
+| Twitter<sub>Saad</sub> (2)               | 79.00 | 95.00 | 95.00 | 81.00 | 90.00 | **96.00** |
+| SAMAR(5)                   | 22.50 | 54.00 | **57.00** | 36.50 | 43.50 | 55.50 |
+| AWATIF(4)                  | 60.50 | 63.50 | 68.50 | 66.50 | 71.50 | **72.50** |
+|  Twitter<sub>Abdullah</sub> (2)           | 81.50 | 91.00 | 92.00 | 89.50 | 91.50 | **95.00** |
+
+***Results reported based on F<sub>1</sub><sup>NP</sup>.***
 
 ## Fine-tuning ARBERT and MARBERT on the ArBench datasets
  
