@@ -12,7 +12,7 @@
   - Social Meaning
   - Topic Classification
   - Dialect Identification
-  - [Named Entity Recogntion (NER)](##2-5-Named-Entity-Recogntion-NER)
+  - [Named Entity Recogntion (NER)](##2.5-Named-Entity-Recogntion-NER)
 
 ## (1) Training Data & Vovocabulary
 
