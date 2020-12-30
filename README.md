@@ -10,8 +10,8 @@ We compare with ARBERT with mBERT, XLM-R, AraBERT, and MARBERT in terms of data 
 |             | **Data Source**              | **#Tokens(ar/all)** | **Tokanization**  | **Vocab Size(ar/all)** | **Cased** | **Arch.**         | **#Param** |
 |---------|---------------------|----------------|---------------|--------------|-------|---------------|--------|
 | mBERT   | Wikipedia           | 153M/1.5B      | WordPiece     | 5K/110K      | yes   | base          | 110M   |
-| XLM-RB  | CommonCraw          | l2.9B/295B     | SentencePiece | 14K/250K     | yes   | base          | 270M   |
-| XLM-RL  | CommonCraw          | l2.9B/295B     | SentencePiece | 14K/250K     | yes   | large         | 550M   |
+| XLM-R<sub>B</sub> | CommonCraw          | l2.9B/295B     | SentencePiece | 14K/250K     | yes   | base          | 270M   |
+| XLM-R<sub>L</sub>  | CommonCraw          | l2.9B/295B     | SentencePiece | 14K/250K     | yes   | large         | 550M   |
 | AraBERT | Several (3 sources) | 2.5B/2.5B      | SentencePiece | 60K/64K      | no    | base          | 135M   |
 | **ARBERT**  | Several (6 sources) | 6.2B/6.2B      | WordPiece     | 100K/100K    | no    | base          | 163M   |
 | **MARBERT** | Arabic Twitter      | 15.6B/15.6B    | WordPiece     | 100K/100K    | no    | base          | 163M   |
@@ -21,7 +21,7 @@ To  evaluate  our  models,   we  propose  **ArBench**,   a new benchmark for mul
 
 ### (1) Sentiment Analysis
 
-| **Dataset (#classes)** |  **mBERT** | **XLM-R<sub>B</sub>** | **XLM-R<sub>B</sub>** | **AraBERT** | **ARBERT** | **MARBERT** |
+| **Dataset (#classes)** |  **mBERT** | **XLM-R<sub>B</sub>** | **XLM-R<sub>L</sub>** | **AraBERT** | **ARBERT** | **MARBERT** |
 |--------------------|:------:|:----------:|:-----------:|:-------:|:------:|:-------:|
 | AJGT (2)           | 86.67 |   89.44   |    91.94   |  92.22 | 94.44 |  **96.11** |
 | HARD (2)           |95.54 |   95.74   |    95.96   |  95.89 | 96.12 |  **96.17** |
@@ -31,7 +31,7 @@ To  evaluate  our  models,   we  propose  **ArBench**,   a new benchmark for mul
 
 ***Results reported based on Acc.***
 
-| **Dataset (#classes)** |  **mBERT** | **XLM-R<sub>B</sub>** | **XLM-R<sub>B</sub>** | **AraBERT** | **ARBERT** | **MARBERT** |
+| **Dataset (#classes)** |  **mBERT** | **XLM-R<sub>B</sub>** | **XLM-R<sub>L</sub>** | **AraBERT** | **ARBERT** | **MARBERT** |
 |--------------------|:------:|:----------:|:-----------:|:-------:|:------:|:-------:|
 | ArSAS (3)           | 87.50 | 90.00 | 91.50 | 91.00 | 92.00 | **93.00**|
 | ASTD (3)            | 67.00 | 60.67 | 67.67 | 72.00 | 76.50 | **78.00** |
