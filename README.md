@@ -12,19 +12,16 @@ As shown in the below table, we compare with ARBERT with mBERT, XLM-R, AraBERT, 
 ## Models Evaluation
 To  evaluate  our  models,   we  propose  **ArBench**,   a new benchmark for multi-dialectal Arabic language understanding.  ***ArBench is built using 41 datasets targeting 5 different tasks/task clusters***, allowing us to offer a series of standardized experiments under rich conditions. When fine-tuned on ArBench,  ARBERT and MARBERT collectively achieve new SOTA  with sizeable margins compared to all existing models such as mBERT, XLM-R (Base and Large), and  AraBERT on 37 out of 45 classification tasks on the 41 datasets (%82.22). 
 
-## Fine-tuning ARBERT and MARBERT on the ArBench datasets
+| Dataset (#classes) | Cluster Task   | Task      | mBERT  | XLM-R base | XLM-R large | AraBERT | ARBERT | MARBERT |
+|--------------------|----------------|-----------|--------|------------|-------------|---------|--------|---------|
+|    Offensive (2)   | Soical Meaning | Offensive | 84.25% |   85.26%   |    88.28%   |  86.57% | 90.38% |  92.41% |
 
- - Using pip
+## Fine-tuning ARBERT and MARBERT on the ArBench datasets
  
- ```shell
-  pip install git+https://github.com/UBC-NLP/aranet
+ ```python
+  
  ```
- - Clone and install
- ```shell
-  git clone https://github.com/UBC-NLP/aranet
-  cd aranet
-  pip install .
-```
+ 
 ## Citation
 If you use our models (ARBERT or MARBERT) for your scientific publication, or if you find the resources in this repository useful, please cite one of the following paper:
 ```
