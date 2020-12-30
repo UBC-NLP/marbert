@@ -72,7 +72,7 @@ To  evaluate  our  models,   we  propose  **ArBench**,   a new benchmark for mul
 
 ***Results reported based on F<sub>1</sub> score.***
 ### (4) Dialect Identification
-| **Dataset**        |   **Dataset (#classes)**  |  **mBERT** | **XLM-R<sub>B</sub>** | **XLM-R<sub>L</sub>** | **AraBERT** | **ARBERT** | **MARBERT** |
+| **Task  (#classes)**        |   **Dataset**  |  **mBERT** | **XLM-R<sub>B</sub>** | **XLM-R<sub>L</sub>** | **AraBERT** | **ARBERT** | **MARBERT** |
 |----------------|---------------------|:------:|:----------:|:-----------:|:-------:|:------:|:-------:|
 | Regoin (5)      | ArSarcasm<sub>Dia</sub> | 43.81 | 41.71 | 41.83 | 47.54 |  51.27 | **54.70**|
 | Country (21)    |  MADAR-TL | 34.92 | 35.91 | 35.14 | 34.87 | 37.90 |**40.40** |
