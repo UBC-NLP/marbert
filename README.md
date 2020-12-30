@@ -48,8 +48,18 @@ To  evaluate  our  models,   we  propose  **ArBench**,   a new benchmark for mul
 
 ***Results reported based on F<sub>1</sub><sup>NP</sup>.***
 ### (2) Social Meaning
- **Dataset (#classes)** |  **mBERT** | **XLM-R<sub>B</sub>** | **XLM-R<sub>L</sub>** | **AraBERT** | **ARBERT** | **MARBERT** |
-|--------------------|:------:|:----------:|:-----------:|:-------:|:------:|:-------:|
+| **Dataset**        |   **Dataset (#classes)**  |  **mBERT** | **XLM-R<sub>B</sub>** | **XLM-R<sub>L</sub>** | **AraBERT** | **ARBERT** | **MARBERT** |
+|----------------|:---------------------:|:------:|:----------:|:-----------:|:-------:|:------:|:-------:|
+| Offensive (2)  | OSACT shared task (A) | 84.25 |   85.26  |    88.28  |  86.57 | 90.38 |  **92.41** |
+| Hate Speech(2) | OSACT shared task (B) | 72.81 |   71.33  |    79.31   |  78.89 | 83.02 |  **84.79**|
+| Dangerous (2)  |       Dangerous       | 62.66 |   62.76  |    65.01 |  64.37 | 63.21 |  **67.53** |
+| Sarcasm (2)    |       AraSarcasm      | 68.20 |   66.76  |    69.23  |  72.23 | 75.04 |  **76.30** |
+| Emotion (8)    |       AraNET<sub>Emo</sub>     | 65.79 |   70.67%   |    74.89   |  65.68 | 67.73% |  **75.83** |
+| Irony (2)      |     FIRE2019     | 80.96 |   81.97  |    82.52%   |  83.01% | 85.59 |  **85.33** |
+| Age (3)        |       Arab_Tweet      | 56.35 |   59.73   |    53.60   |  57.72 | 58.95 |  **62.27** |
+| Gender (2)     |       Arab_Tweet      | 68.06|   71.00   |    71.14   |  67.75 | 69.86 |  **72.62** |
+
+***Results reported based on F<sub>1</sub>.***
 
 ### (3) Topic Classificatio
  **Dataset (#classes)** |  **mBERT** | **XLM-R<sub>B</sub>** | **XLM-R<sub>L</sub>** | **AraBERT** | **ARBERT** | **MARBERT** |
