@@ -64,11 +64,11 @@ To  evaluate  our  models,   we  propose  **ArBench**,   a new benchmark for mul
 ### (3) Topic Classification
 | **Dataset (#classes)**  |  **mBERT** | **XLM-R<sub>B</sub>** | **XLM-R<sub>L</sub>** | **AraBERT** | **ARBERT** | **MARBERT** |
 |----------------|:------:|:----------:|:-----------:|:-------:|:------:|:-------:|
-| OSAC (10)            | 96.84 | 97.15 | 98.20 | 97.03 | 97.50 | **97.23** |   |
-| Khallej (4)          | 92.81 | 91.87 | 93.56 | 93.83 | **94.53** | 93.63 |   |
-| ANT<sub>Text</sub> (5)       | 84.89 | 85.77 | 86.72 | **88.17** | 86.87 | 85.27 |   |
-| ANT<sub>Title</sub> (5)      | 78.29 | 79.96 | 81.25 | 81.03 | **81.70** | 81.19 |   |
-| ANT<sub>Text+Title</sub> (5) | 84.67 | 86.21 | 86.96 | **87.22** | 87.21 | 85.60 |   |
+| OSAC (10)                    | 96.84 | 97.15 | 98.20 | 97.03 | **97.50** | 97.23 |
+| Khallej (4)                  | 92.81 | 91.87 | 93.56 | 93.83 | **94.53** | 93.63 |
+| ANT<sub>Text</sub> (5)       | 84.89 | 85.77 | 86.72 | **88.17** | 86.87 | 85.27 |
+| ANT<sub>Title</sub> (5)      | 78.29 | 79.96 | 81.25 | 81.03 | **81.70** | 81.19 |
+| ANT<sub>Text+Title</sub> (5) | 84.67 | 86.21 | 86.96 | **87.22** | 87.21 | 85.60 |
 
 ***Results reported based on F<sub>1</sub> score.***
 ### (4) Dialect Identification
