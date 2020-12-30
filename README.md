@@ -8,14 +8,12 @@
 We compare with ARBERT with mBERT, XLM-R, AraBERT, and MARBERT in terms of data sources and size, vocabulary size, and model parameter size.
 
 | **Models**  | **Training Data**   |                | **Vocabulary**    |              |       | **Configuration** |        |
-|             |---------------------|----------------|---------------|--------------|-------|---------------|--------|
 |             | Source              | Tokens(ar/all) | Tokanization  | Size(ar/all) | Cased | Arch.         | #Param |
 |---------|---------------------|----------------|---------------|--------------|-------|---------------|--------|
 | mBERT   | Wikipedia           | 153M/1.5B      | WordPiece     | 5K/110K      | yes   | base          | 110M   |
 | XLM-RB  | CommonCraw          | l2.9B/295B     | SentencePiece | 14K/250K     | yes   | base          | 270M   |
 | XLM-RL  | CommonCraw          | l2.9B/295B     | SentencePiece | 14K/250K     | yes   | large         | 550M   |
 | AraBERT | Several (3 sources) | 2.5B/2.5B      | SentencePiece | 60K/64K      | no    | base          | 135M   |
-|---------|---------------------|----------------|---------------|--------------|-------|---------------|--------|
 | **ARBERT**  | Several (6 sources) | 6.2B/6.2B      | WordPiece     | 100K/100K    | no    | base          | 163M   |
 | **MARBERT** | Arabic Twitter      | 15.6B/15.6B    | WordPiece     | 100K/100K    | no    | base          | 163M   |
 
