@@ -1,5 +1,5 @@
 # ARBERT & MARBERT: Deep Bidirectional Transformers for Arabic
-<img src="ARBERT_MARBERT.jpg" alt="drawing" width="20%" height="20%" align="right"/>
+<img src="ARBERT_MARBERT.jpg" alt="drawing" width="25%" height="25%" align="right"/>
 
 **ARBERT** is a large scale pre-training masked language model focused on Modern Standard Arabic(MSA). To train ARBERT, we use the same architecture as BERT-base: 12 attention layers, each has 12 attention heads and 768 hidden dimensions, avocabulary of 100K WordPieces, making ∼163M parameters. We  train  ARBERT on a collection of Arabic datasets comprising 61GB of text (6.5 B tokens)
 
