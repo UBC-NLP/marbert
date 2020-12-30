@@ -7,12 +7,13 @@
 
 ## Table of Contents
 - [Training Data & Vocabulary](##1-Training-Dat-and-Vovocabulary)
+- [ArBench](##2-ArBench)
 - Models Evaluation
-  - [Sentiment Analysis](##21-Sentiment-Analysis)
-  - [Social Meaning](##22-Social-Meaning)
-  - [Topic Classification](##23-Topic-Classification)
-  - [Dialect Identification](##24-Dialect-Identification)
-  - [Named Entity Recogntion (NER)](##25-Named-Entity-Recogntion)
+  - [Sentiment Analysis](##31-Sentiment-Analysis)
+  - [Social Meaning](##32-Social-Meaning)
+  - [Topic Classification](##33-Topic-Classification)
+  - [Dialect Identification](##34-Dialect-Identification)
+  - [Named Entity Recogntion (NER)](##35-Named-Entity-Recogntion)
 - [Fine-tuning ARBERT and MARBERT](#Fine-tuning-ARBERT-and-MARBERT)
 
 ## 1 Training Data and Vocabulary
@@ -28,10 +29,13 @@ We compare with ARBERT with mBERT, XLM-R, AraBERT, and MARBERT in terms of data 
 | **ARBERT**  | Several (6 sources) | 6.2B/6.2B      | WordPiece     | 100K/100K    | no    | base          | 163M   |
 | **MARBERT** | Arabic Twitter      | 15.6B/15.6B    | WordPiece     | 100K/100K    | no    | base          | 163M   |
 
-## 2 Models Evaluation
-To  evaluate  our  models,   we  propose  **ArBench**,   a new benchmark for multi-dialectal Arabic language understanding.  ***ArBench is built using 41 datasets targeting 5 different tasks/task clusters***, allowing us to offer a series of standardized experiments under rich conditions. When fine-tuned on ArBench,  ARBERT and MARBERT collectively achieve new SOTA  with sizeable margins compared to all existing models such as mBERT, XLM-R (Base and Large), and  AraBERT on 37 out of 45 classification tasks on the 41 datasets (82.22). 
+## 2 ArBench
+To  evaluate  our  models,   we  propose  **ArBench**,   a new benchmark for multi-dialectal Arabic language understanding.  ***ArBench is built using 41 datasets targeting 5 different tasks/task clusters***, allowing us to offer a series of standardized experiments under rich conditions.
 
-### 2.1 Sentiment Analysis
+## 3 Models Evaluation
+When fine-tuned on ArBench,  ARBERT and MARBERT collectively achieve new SOTA  with sizeable margins compared to all existing models such as mBERT, XLM-R (Base and Large), and  AraBERT on 37 out of 45 classification tasks on the 41 datasets (82.22%). 
+
+### 3.1 Sentiment Analysis
 
 | **Dataset (#classes)** |  **mBERT** | **XLM-R<sub>B</sub>** | **XLM-R<sub>L</sub>** | **AraBERT** | **ARBERT** | **MARBERT** |
 |--------------------|:------:|:----------:|:-----------:|:-------:|:------:|:-------:|
@@ -59,7 +63,7 @@ To  evaluate  our  models,   we  propose  **ArBench**,   a new benchmark for mul
 |  Twitter<sub>Abdullah</sub> (2)           | 81.50 | 91.00 | 92.00 | 89.50 | 91.50 | **95.00** |
 
 ***Results reported based on F<sub>1</sub><sup>NP</sup> score.***
-### 2.2 Social Meaning
+### 3.2 Social Meaning
 | **Task (#classes)**        |   **Dataset**  |  **mBERT** | **XLM-R<sub>B</sub>** | **XLM-R<sub>L</sub>** | **AraBERT** | **ARBERT** | **MARBERT** |
 |----------------|---------------------|:------:|:----------:|:-----------:|:-------:|:------:|:-------:|
 | Offensive (2)  | OSACT-A | 84.25 |   85.26  |    88.28  |  86.57 | 90.38 |  **92.41** |
@@ -73,7 +77,7 @@ To  evaluate  our  models,   we  propose  **ArBench**,   a new benchmark for mul
 
 ***Results reported based on F<sub>1</sub> score.***
 
-### 2.3 Topic Classification
+### 3.3 Topic Classification
 | **Dataset (#classes)**  |  **mBERT** | **XLM-R<sub>B</sub>** | **XLM-R<sub>L</sub>** | **AraBERT** | **ARBERT** | **MARBERT** |
 |----------------|:------:|:----------:|:-----------:|:-------:|:------:|:-------:|
 | OSAC (10)                    | 96.84 | 97.15 | 98.20 | 97.03 | **97.50** | 97.23 |
@@ -83,7 +87,7 @@ To  evaluate  our  models,   we  propose  **ArBench**,   a new benchmark for mul
 | ANT<sub>Text+Title</sub> (5) | 84.67 | 86.21 | 86.96 | **87.22** | 87.21 | 85.60 |
 
 ***Results reported based on F<sub>1</sub> score.***
-### 2.4 Dialect Identification
+### 3.4 Dialect Identification
 | **Task  (#classes)**        |   **Dataset**  |  **mBERT** | **XLM-R<sub>B</sub>** | **XLM-R<sub>L</sub>** | **AraBERT** | **ARBERT** | **MARBERT** |
 |----------------|---------------------|:------:|:----------:|:-----------:|:-------:|:------:|:-------:|
 | Regoin (5)      | ArSarcasm<sub>Dia</sub> | 43.81 | 41.71 | 41.83 | 47.54 |  51.27 | **54.70**|
@@ -97,7 +101,7 @@ To  evaluate  our  models,   we  propose  **ArBench**,   a new benchmark for mul
 
 ***Results reported based on F<sub>1</sub> score.***
 
-### 2.5 Named Entity Recogntion
+### 3.5 Named Entity Recogntion
 | **Dataset**  |  **mBERT** | **XLM-R<sub>B</sub>** | **XLM-R<sub>L</sub>** | **AraBERT** | **ARBERT** | **MARBERT** |
 |----------------|:------:|:----------:|:-----------:|:-------:|:------:|:-------:|
 | ANERcorp.   | 86.78 | 87.24 | **89.94** | 89.13 | 84.38 | 80.64 |
