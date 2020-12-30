@@ -21,7 +21,8 @@ To  evaluate  our  models,   we  propose  **ArBench**,   a new benchmark for mul
 | ArsenTD-LEV (5)    | 59.4 | 50.50 |   55.25   |    **62.00**  |  56.13 | 61.38 |  60.38 |
 | LABR (2)           | 86.7 | 91.20 |   91.23   |    92.20   |  91.97 | 92.51 |  **92.49** |
 | ASTD-B(2)          | 92.6 | 79.32 |   87.59   |    77.44   |  83.08 | 93.23 |  **96.24** |
-|SOTA are results reported in Antoun et al. (2020) based on Acc.|
+
+***SOTA are results reported in AraBERT paper Antoun et al. (2020) based on Acc.***
 
 ## Fine-tuning ARBERT and MARBERT on the ArBench datasets
  
