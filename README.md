@@ -1,5 +1,5 @@
 # ARBERT & MARBERT: Deep Bidirectional Transformers for Arabic
-<img src="ARBERT_MARBERT.jpg" alt="drawing" width="30%" height="305%" align="right"/>
+<img src="ARBERT_MARBERT.jpg" alt="drawing" width="30" height="305" align="right"/>
 
 **ARBERT** is a large scale pre-training masked language model focused on Modern Standard Arabic(MSA). To train ARBERT, we use the same architecture as BERT-base: 12 attention layers, each has 12 attention heads and 768 hidden dimensions, avocabulary of 100K WordPieces, making ∼163M parameters. We  train  ARBERT on a collection of Arabic datasets comprising 61GB of text (6.5 B tokens)
 
@@ -7,21 +7,21 @@
 
 ## Compare with other models
 As shown in the below table, we compare with ARBERT with mBERT, XLM-R, AraBERT, and MARBERT in terms of data sources and size, vocabulary size, and model parameter size.
-<center> <img src="Configuration_ARBERT_MARBERT.png" alt="drawing" width="100%" height="100%"/></center>
+<center> <img src="Configuration_ARBERT_MARBERT.png" alt="drawing" width="100" height="100"/></center>
 
 ## Models Evaluation
-To  evaluate  our  models,   we  propose  **ArBench**,   a new benchmark for multi-dialectal Arabic language understanding.  ***ArBench is built using 41 datasets targeting 5 different tasks/task clusters***, allowing us to offer a series of standardized experiments under rich conditions. When fine-tuned on ArBench,  ARBERT and MARBERT collectively achieve new SOTA  with sizeable margins compared to all existing models such as mBERT, XLM-R (Base and Large), and  AraBERT on 37 out of 45 classification tasks on the 41 datasets (%82.22). 
+To  evaluate  our  models,   we  propose  **ArBench**,   a new benchmark for multi-dialectal Arabic language understanding.  ***ArBench is built using 41 datasets targeting 5 different tasks/task clusters***, allowing us to offer a series of standardized experiments under rich conditions. When fine-tuned on ArBench,  ARBERT and MARBERT collectively achieve new SOTA  with sizeable margins compared to all existing models such as mBERT, XLM-R (Base and Large), and  AraBERT on 37 out of 45 classification tasks on the 41 datasets (82.22). 
 
-| Dataset (#classes) |  Cluster Task  |    Task   |  mBERT |XLM R<sub>B</sub>            | XLM R<sub>L</sub>         | AraBERT | ARBERT | MARBERT |
-|:------------------:|:--------------:|:---------:|:------:|:---------------------:|:-------------------:|:-------:|:------:|:-------:|
-|    Offensive (2)   | Soical Meaning | Offensive | 84.25 |         85.26        |        88.28       |  86.57 | 90.38 |  **92.41** |
+### Sentiment Analysis
 
-
-
-| Dataset (#classes) 	|  Cluster Task  	|    Task   	|  mBERT 	| XLM-R base            	| XLM-R large         	| AraBERT 	| ARBERT 	| MARBERT 	|
-|:------------------:	|:--------------:	|:---------:	|:------:	|:---------------------:	|:-------------------:	|:-------:	|:------:	|:-------:	|
-|    Offensive (2)   	| Soical Meaning 	| Offensive 	| 84.25% 	|         85.26%        	|        88.28%       	|  86.57% 	| 90.38% 	|  92.41% 	|
-
+| **Dataset (#classes)** | **SOTA** |  **mBERT** | **XLM-R<sub>B</sub>** | **XLM-R<sub>B</sub>** | **AraBERT** | **ARBERT** | **MARBERT** |
+|--------------------|:----:|:------:|:----------:|:-----------:|:-------:|:------:|:-------:|
+| AJGT (2)           | 93.8 | 86.67 |   89.44   |    91.94   |  92.22 | 94.44 |  **96.11** |
+| HARD (2)           | 96.2 | 95.54 |   95.74   |    95.96   |  95.89 | 96.12 |  **96.17** |
+| ArsenTD-LEV (5)    | 59.4 | 50.50 |   55.25   |    **62.00**  |  56.13 | 61.38 |  60.38 |
+| LABR (2)           | 86.7 | 91.20 |   91.23   |    92.20   |  91.97 | 92.51 |  **92.49** |
+| ASTD-B(2)          | 92.6 | 79.32 |   87.59   |    77.44   |  83.08 | 93.23 |  **96.24** |
+SOTA are results reported in Antoun et al. (2020) based on Acc.
 
 ## Fine-tuning ARBERT and MARBERT on the ArBench datasets
  
