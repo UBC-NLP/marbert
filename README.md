@@ -27,4 +27,4 @@ To  evaluate  our  models,   we  propose  **ArBench**,   a new benchmark for mul
 ```
 
 ## Acknowledgements
-gratefully   acknowledges   support   fromthe   Natural   Sciences   and   Engineering   Research  Council  of  Canada,  the  Social  Sciencesand  Humanities  Research  Council  of  Canada,Canadian  Foundation  for  Innovation,  (ComputeCanada)[www.computecanada.ca] and (UBC ARC-Sockeye)[https://doi.org/10.14288/SOCKEYE]. We  also  thank  the  (Google TensorFlow Research Cloud (TFRC))[https://www.tensorflow.org/tfrc] program for providing us with free TPU access.
+gratefully   acknowledges   support   fromthe   Natural   Sciences   and   Engineering   Research  Council  of  Canada,  the  Social  Sciencesand  Humanities  Research  Council  of  Canada,Canadian  Foundation  for  Innovation,  [ComputeCanada](www.computecanada.ca) and [UBC ARC-Sockeye](https://doi.org/10.14288/SOCKEYE). We  also  thank  the  [Google TensorFlow Research Cloud (TFRC)](https://www.tensorflow.org/tfrc) program for providing us with free TPU access.
