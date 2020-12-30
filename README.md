@@ -86,8 +86,14 @@ To  evaluate  our  models,   we  propose  **ArBench**,   a new benchmark for mul
 ***Results reported based on F<sub>1</sub> score.***
 
 ### (5) Named Entity Recogntion (NER)
-| **Dataset**        |   **Dataset (#classes)**  |  **mBERT** | **XLM-R<sub>B</sub>** | **XLM-R<sub>L</sub>** | **AraBERT** | **ARBERT** | **MARBERT** |
+| **Dataset **  |  **mBERT** | **XLM-R<sub>B</sub>** | **XLM-R<sub>L</sub>** | **AraBERT** | **ARBERT** | **MARBERT** |
 |----------------|---------------------|:------:|:----------:|:-----------:|:-------:|:------:|:-------:|
+| ANERcorp.   | 86.78 | 87.24 | 89.94% | 89.13% | 84.38% | 80.64 |
+|-------------|:------:|:------:|-------:|:------:|:------:|:-----:|
+| ACE 2004 NW | 86.37 | **89.93** | 89.89 | 89.03 | 88.24 | 85.02 |
+| ACE 2003BN  | 91.23 | 53.97 | 85.41 | 91.94 | **96.18** | 79.05 |
+| ACE 2003NW  | 81.40| 87.24 | 90.62 | 88.09 | **90.09** | 87.76 |
+| Twitter     | 36.83 | 49.16 | 54.44 | 41.26 | 59.17 | **67.39** |
 
 ***Results reported based on F<sub>1</sub> score.***
 
