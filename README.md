@@ -47,11 +47,26 @@ To  evaluate  our  models,   we  propose  **ArBench**,   a new benchmark for mul
 |  Twitter<sub>Abdullah</sub> (2)           | 81.50 | 91.00 | 92.00 | 89.50 | 91.50 | **95.00** |
 
 ***Results reported based on F<sub>1</sub><sup>NP</sup>.***
+### (2) Social Meaning
+ **Dataset (#classes)** |  **mBERT** | **XLM-R<sub>B</sub>** | **XLM-R<sub>L</sub>** | **AraBERT** | **ARBERT** | **MARBERT** |
+|--------------------|:------:|:----------:|:-----------:|:-------:|:------:|:-------:|
 
-## Fine-tuning ARBERT and MARBERT on the ArBench datasets
+### (3) Topic Classificatio
+ **Dataset (#classes)** |  **mBERT** | **XLM-R<sub>B</sub>** | **XLM-R<sub>L</sub>** | **AraBERT** | **ARBERT** | **MARBERT** |
+|--------------------|:------:|:----------:|:-----------:|:-------:|:------:|:-------:|
+
+### (4) Dialect Identification
+ **Dataset (#classes)** |  **mBERT** | **XLM-R<sub>B</sub>** | **XLM-R<sub>L</sub>** | **AraBERT** | **ARBERT** | **MARBERT** |
+|--------------------|:------:|:----------:|:-----------:|:-------:|:------:|:-------:|
+
+### (5) Named Entity Recogntion (NER)
+ **Dataset (#classes)** |  **mBERT** | **XLM-R<sub>B</sub>** | **XLM-R<sub>L</sub>** | **AraBERT** | **ARBERT** | **MARBERT** |
+|--------------------|:------:|:----------:|:-----------:|:-------:|:------:|:-------:|
+
+## Fine-tuning ARBERT and MARBERT on ArBench datasets
  
  ```python
-  
+    import 
  ```
  
 ## Citation
