@@ -48,7 +48,7 @@ To  evaluate  our  models,   we  propose  **ArBench**,   a new benchmark for mul
 
 ***Results reported based on F<sub>1</sub><sup>NP</sup> score.***
 ### (2) Social Meaning
-| **Dataset**        |   **Dataset (#classes)**  |  **mBERT** | **XLM-R<sub>B</sub>** | **XLM-R<sub>L</sub>** | **AraBERT** | **ARBERT** | **MARBERT** |
+| **Task (#classes)**        |   **Dataset **  |  **mBERT** | **XLM-R<sub>B</sub>** | **XLM-R<sub>L</sub>** | **AraBERT** | **ARBERT** | **MARBERT** |
 |----------------|---------------------|:------:|:----------:|:-----------:|:-------:|:------:|:-------:|
 | Offensive (2)  | OSACT-A | 84.25 |   85.26  |    88.28  |  86.57 | 90.38 |  **92.41** |
 | Hate Speech(2) | OSACT-B | 72.81 |   71.33  |    79.31   |  78.89 | 83.02 |  **84.79**|
@@ -70,14 +70,18 @@ To  evaluate  our  models,   we  propose  **ArBench**,   a new benchmark for mul
 | ANT<sub>Title</sub> (5)      | 78.29% | 79.96% | 81.25% | 81.03% | 81.70% | 81.19% |   |
 | ANT<sub>Text+Title</sub> (5) | 84.67% | 86.21% | 86.96% | 87.22% | 87.21% | 85.60% |   |
 
-
+***Results reported based on F<sub>1</sub> score.***
 ### (4) Dialect Identification
 | **Dataset**        |   **Dataset (#classes)**  |  **mBERT** | **XLM-R<sub>B</sub>** | **XLM-R<sub>L</sub>** | **AraBERT** | **ARBERT** | **MARBERT** |
 |----------------|---------------------|:------:|:----------:|:-----------:|:-------:|:------:|:-------:|
 
+***Results reported based on F<sub>1</sub> score.***
+
 ### (5) Named Entity Recogntion (NER)
 | **Dataset**        |   **Dataset (#classes)**  |  **mBERT** | **XLM-R<sub>B</sub>** | **XLM-R<sub>L</sub>** | **AraBERT** | **ARBERT** | **MARBERT** |
 |----------------|---------------------|:------:|:----------:|:-----------:|:-------:|:------:|:-------:|
+
+***Results reported based on F<sub>1</sub> score.***
 
 ## Fine-tuning ARBERT and MARBERT on ArBench datasets
  
