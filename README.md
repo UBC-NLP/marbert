@@ -1,5 +1,5 @@
 # ARBERT & MARBERT: Deep Bidirectional Transformers for Arabic
-<img src="ARBERT_MARBERT.jpg" alt="drawing" width="30" height="305" align="right"/>
+<img src="ARBERT_MARBERT.jpg" alt="drawing" width="30%" height="30%" align="right"/>
 
 **ARBERT** is a large scale pre-training masked language model focused on Modern Standard Arabic(MSA). To train ARBERT, we use the same architecture as BERT-base: 12 attention layers, each has 12 attention heads and 768 hidden dimensions, avocabulary of 100K WordPieces, making ∼163M parameters. We  train  ARBERT on a collection of Arabic datasets comprising 61GB of text (6.5 B tokens)
 
@@ -7,7 +7,7 @@
 
 ## Compare with other models
 As shown in the below table, we compare with ARBERT with mBERT, XLM-R, AraBERT, and MARBERT in terms of data sources and size, vocabulary size, and model parameter size.
-<center> <img src="Configuration_ARBERT_MARBERT.png" alt="drawing" width="100" height="100"/></center>
+<center> <img src="Configuration_ARBERT_MARBERT.png" alt="drawing" width="100%" height="100%"/></center>
 
 ## Models Evaluation
 To  evaluate  our  models,   we  propose  **ArBench**,   a new benchmark for multi-dialectal Arabic language understanding.  ***ArBench is built using 41 datasets targeting 5 different tasks/task clusters***, allowing us to offer a series of standardized experiments under rich conditions. When fine-tuned on ArBench,  ARBERT and MARBERT collectively achieve new SOTA  with sizeable margins compared to all existing models such as mBERT, XLM-R (Base and Large), and  AraBERT on 37 out of 45 classification tasks on the 41 datasets (82.22). 
