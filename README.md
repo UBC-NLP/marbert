@@ -54,16 +54,22 @@ To  evaluate  our  models,   we  propose  **ArBench**,   a new benchmark for mul
 | Hate Speech(2) | OSACT-B | 72.81 |   71.33  |    79.31   |  78.89 | 83.02 |  **84.79**|
 | Dangerous (2)  |       Dangerous       | 62.66 |   62.76  |    65.01 |  64.37 | 63.21 |  **67.53** |
 | Sarcasm (2)    |       AraSarcasm      | 68.20 |   66.76  |    69.23  |  72.23 | 75.04 |  **76.30** |
-| Emotion (8)    |       AraNET<sub>Emo</sub>     | 65.79 |   70.67%   |    74.89   |  65.68 | 67.73% |  **75.83** |
-| Irony (2)      |     FIRE2019     | 80.96 |   81.97  |    82.52%   |  83.01% | 85.59 |  **85.33** |
+| Emotion (8)    |       AraNET<sub>Emo</sub>     | 65.79 |   70.67   |    74.89   |  65.68 | 67.73 |  **75.83** |
+| Irony (2)      |     FIRE2019     | 80.96 |   81.97  |    82.52%  |  83.01 | 85.59 |  **85.33** |
 | Age (3)        |       Arab_Tweet      | 56.35 |   59.73   |    53.60   |  57.72 | 58.95 |  **62.27** |
 | Gender (2)     |       Arab_Tweet      | 68.06|   71.00   |    71.14   |  67.75 | 69.86 |  **72.62** |
 
 ***Results reported based on F<sub>1</sub> score.***
 
-### (3) Topic Classificatio
-| **Dataset**        |   **Dataset (#classes)**  |  **mBERT** | **XLM-R<sub>B</sub>** | **XLM-R<sub>L</sub>** | **AraBERT** | **ARBERT** | **MARBERT** |
-|----------------|---------------------|:------:|:----------:|:-----------:|:-------:|:------:|:-------:|
+### (3) Topic Classification
+| **Dataset (#classes)**  |  **mBERT** | **XLM-R<sub>B</sub>** | **XLM-R<sub>L</sub>** | **AraBERT** | **ARBERT** | **MARBERT** |
+|----------------|:------:|:----------:|:-----------:|:-------:|:------:|:-------:|
+| OSAC (10)            | 96.84% | 97.15% | 98.20% | 97.03% | 97.50% | 97.23% |   |
+| Khallej (4)          | 92.81% | 91.87% | 93.56% | 93.83% | 94.53% | 93.63% |   |
+| ANT<sub>Text</sub> (5)       | 84.89% | 85.77% | 86.72% | 88.17% | 86.87% | 85.27% |   |
+| ANT<sub>Title</sub> (5)      | 78.29% | 79.96% | 81.25% | 81.03% | 81.70% | 81.19% |   |
+| ANT<sub>Text+Title</sub> (5) | 84.67% | 86.21% | 86.96% | 87.22% | 87.21% | 85.60% |   |
+
 
 ### (4) Dialect Identification
 | **Dataset**        |   **Dataset (#classes)**  |  **mBERT** | **XLM-R<sub>B</sub>** | **XLM-R<sub>L</sub>** | **AraBERT** | **ARBERT** | **MARBERT** |
