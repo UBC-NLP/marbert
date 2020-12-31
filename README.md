@@ -13,20 +13,20 @@ Our language models are publicaly available for research (see below).
 The rest of this repository provides more information about our new language models, benchmark, and experiments.
 
 ## Table of Contents
-- [1 ARBERT & MARBERT](##-1.1-ARBERT-&-MARBERT)
-- [Training Data and Vocabulary](#1.2-Training-Data-and-Vovocabulary)
+- [1. Our Language Models](##-1-Our-Language-Models)
+- [1.2 Training Data and Vocabulary](#-12-Training-Data-and-Vovocabulary)
 - [ArBench](#2-ArBench)
-- Models Evaluation
-  - [Sentiment Analysis](#31-Sentiment-Analysis)
-  - [Social Meaning](#32-Social-Meaning)
-  - [Topic Classification](#33-Topic-Classification)
-  - [Dialect Identification](#34-Dialect-Identification)
-  - [Named Entity Recogntion (NER)](#35-Named-Entity-Recogntion)
-- [Fine-tuning ARBERT and MARBERT](#Fine-tuning-ARBERT-and-MARBERT)
+- [3. Models Evaluation](##-3-Models-Evaluation)
+  - [3.1 Sentiment Analysis](#31-Sentiment-Analysis)
+  - [3.2 Social Meaning](#32-Social-Meaning)
+  - [3.3 Topic Classification](#33-Topic-Classification)
+  - [3.4 Dialect Identification](#34-Dialect-Identification)
+  - [3.5 Named Entity Recogntion (NER)](#35-Named-Entity-Recogntion)
+- [4. Fine-tuning ARBERT and MARBERT](#-4-Fine-tuning-ARBERT-and-MARBERT)
 
 ---
 
-## 1 Our Language Models
+## 1. Our Language Models
 
 ## 1.1 ARBERT & MARBERT
 **ARBERT** is a large scale pre-training masked language model focused on Modern Standard Arabic(MSA). To train ARBERT, we use the same architecture as BERT-base: 12 attention layers, each has 12 attention heads and 768 hidden dimensions, avocabulary of 100K WordPieces, making ∼163M parameters. We  train  ARBERT on a collection of Arabic datasets comprising 61GB of text (6.2 B tokens)
@@ -179,7 +179,7 @@ When fine-tuned on ArBench,  ARBERT and MARBERT collectively achieve new SOTA  w
 
 ***Results reported based on F<sub>1</sub> score.***
 
-## Fine-tuning ARBERT and MARBERT
+## 4. Fine-tuning ARBERT and MARBERT
  
  ```python
     import 
