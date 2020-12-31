@@ -51,37 +51,26 @@ To  evaluate  our  models,   we  propose  **ArBench**,   a new benchmark for mul
 |                   | SYTS(3)                             |     960 |    202 |    199 |
 |                   | Twitter<sub>Saad</sub> (2) |   1,569 |    202 |    190 |
 |                   | Twitter<sub>Abdullah</sub> (2)     |  46,999 |  5,779 |  5,824 |
+|Social Meaning| Arab_Tweet - Age (3)     | 1285796 | 160725 | 160726 |
+|                   | Arab_Tweet - Gender (2)   | 1285796 | 160725 | 160726 |
+|                   | AraNET<sub>Emo</sub> - Emotion (8)   |  189903 |    911 |    942 |
+|                   | AraSarcasm  - Sarcasm (2)   |   8,438 | -      |  2,111 |
+|                   | Dangerous(2)  |    3475 |    616 |    664 |
+|                   | FIRE2019 - Irony (2)    |    3622 | -      |    404 |
+|                   | OSACT-A - Offensive (2)  |   10000 |   1000 |   2000 |
+|                   | OSACT-B - Hate Speech(2) |   10000 |   1000 |   2000 |
+|Topic Classification|  OSAC (10)  | 17944 | 2244 | 2244 | 
+|                   | Khallej (4) |  4553 |  570 |  570 | 
+|                   |  ANT(5)  | 25219 | 3154 | 3153 |  
+|Dialect Identification|              AOC (2)              |      Binary     |  86,541 | 10,809 | 10,807 |
+|                   |              AOC (3)              |      Region     |  35,679 |  4,464 |  4,455 |
+|                   |              AOC (4)              |      Region     |  86,489 | 10,814 | 10,803 |
+|                   | ArSarcasm<sub>Dia</sub> (5) |      Regoin     |  8,438  |    -   |  2,111 |
+|                   |           MADAR-TL (21)           |     Country     | 193,087 | 26,589 | 43,910 |
+|                   |             NADI (21)             |     Country     |  2,100  |  4,957 |  5,000 |
+|                   |             NADI (100)             |     Province     |  2,100  |  4,957 |  5,000 |
+|                   |             QADI (18)             |     Country     | 497,816 |   --   |  3,504 |
 
-
-| **Dataset**                   |**Task (#classes)** | **TRAIN**   | **DEV**    | **TEST**   |
-|---------------------------|:---------------:|---------|--------|--------|
-| Arab_Tweet                |     Age (3)     | 1285796 | 160725 | 160726 |
-| Arab_Tweet                |    Gender (2)   | 1285796 | 160725 | 160726 |
-| AraNET<sub>Emo</sub> |   Emotion (8)   |  189903 |    911 |    942 |
-| AraSarcasm                |   Sarcasm (2)   |   8,438 | -      |  2,111 |
-| Dangerous                 |  Dangerous (2)  |    3475 |    616 |    664 |
-| IDAT@FIRE2019             |    Irony (2)    |    3622 | -      |    404 |
-| OSACT shared task (A)     |  Offensive (2)  |   10000 |   1000 |   2000 |
-| OSACT shared task (B)     |  Hate Speech(2) |   10000 |   1000 |   2000 |
-
-
-|              **Dataset**              | **Task (#classes)** | **TRAIN**   | **DEV**    | **TEST**   |
-|:---------------------------------:|:---------------:|---------|--------|--------|
-|              AOC (2)              |      Binary     |  86,541 | 10,809 | 10,807 |
-|           MADAR-TL (21)           |     Country     | 193,087 | 26,589 | 43,910 |
-|             QADI (18)             |     Country     | 497,816 |   --   |  3,504 |
-|             NADI (21)             |     Country     |  2,100  |  4,957 |  5,000 |
-|              AOC (3)              |      Region     |  35,679 |  4,464 |  4,455 |
-|              AOC (3)              |      Region     |  86,489 | 10,814 | 10,803 |
-| ArSarcasm<sub>Dia</sub> (5) |      Regoin     |  8,438  |    -   |  2,111 |
-
-
-|  **Task (#classes)** | **TRAIN** | **DEV**  | **TEST** |
-|:----------------:|-------|------|------|
-|  Watan-2004 (6)  | 16232 | 2031 | 2030 | 
-|  osac-uft8 (10)  | 17944 | 2244 | 2244 | 
-| Khallej-2004 (4) |  4553 |  570 |  570 | 
-|  ANT-Corpus (5)  | 25219 | 3154 | 3153 |  
 
 
 ## 3 Models Evaluation
