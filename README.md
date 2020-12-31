@@ -1,4 +1,4 @@
-# What this Repository is about:
+# What is the repository is about?
 This is the repository accompanying our paper [ARBERT & MARBERT: Deep Bidirectional Transformers for Arabic]().
 In this paper, we:
 * introduce ```ARBERT``` and ```MARBERT```, two powerful Transformer-based language models for Arabic;
