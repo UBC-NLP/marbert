@@ -15,7 +15,7 @@ The rest of this repository provides more information about our new language mod
 ## Table of Contents
 - [1. Our Language Models](##-1-Our-Language-Models)
 - [1.2 Training Data and Vocabulary](#-12-Training-Data-and-Vovocabulary)
-- [ArBench](#2-ArBench)
+- [2. Our Benchmark: ArBench](#2-Our-Benchmark:-ArBench)
 - [3. Models Evaluation](##-3-Models-Evaluation)
   - [3.1 Sentiment Analysis](#31-Sentiment-Analysis)
   - [3.2 Social Meaning](#32-Social-Meaning)
@@ -47,7 +47,7 @@ We compare with ARBERT with mBERT, XLM-R, AraBERT, and MARBERT in terms of data 
 | **ARBERT**  | Several (6 sources) | 6.2B/6.2B      | WordPiece     | 100K/100K    | no    | base          | 163M   |
 | **MARBERT** | Arabic Twitter      | 15.6B/15.6B    | WordPiece     | 100K/100K    | no    | base          | 163M   |
 
-## 2 ArBench
+## 2. Our Benchmark: ArBench
 To  evaluate  our  models,   we  propose  **ArBench**,   a new benchmark for multi-dialectal Arabic language understanding.  ***ArBench is built using 41 datasets targeting 5 different tasks/task clusters***, allowing us to offer a series of standardized experiments under rich conditions.
 
 |**Data Type** | **Data  (#classes)**                    | **TRAIN**   | **DEV**    | **TEST**   |
