@@ -25,7 +25,7 @@ The rest of this repository provides more information about our new language mod
   - [3.4 Dialect Identification](#34-Dialect-Identification)
   - [3.5 Named Entity Recogntion (NER)](#35-Named-Entity-Recogntion)
 - [4. Fine-tuning ARBERT and MARBERT](#-4-Fine-tuning-ARBERT-and-MARBERT)
-
+- [5. Acknowledgments](##-5-Acknowledgments)
 ---
 
 ## 1. Our Language Models
@@ -48,6 +48,8 @@ We compare with ARBERT with mBERT, XLM-R, AraBERT, and MARBERT in terms of data 
 | AraBERT | Several (3 sources) | 2.5B/2.5B      | SentencePiece | 60K/64K      | no    | base          | 135M   |
 | **ARBERT**  | Several (6 sources) | 6.2B/6.2B      | WordPiece     | 100K/100K    | no    | base          | 163M   |
 | **MARBERT** | Arabic Twitter      | 15.6B/15.6B    | WordPiece     | 100K/100K    | no    | base          | 163M   |
+
+---
 
 ## 2. Our Benchmark: ArBench
 To  evaluate  our  models,   we  propose  **ArBench**,   a new benchmark for multi-dialectal Arabic language understanding.  ***ArBench is built using 41 datasets targeting 5 different tasks/task clusters***, allowing us to offer a series of standardized experiments under rich conditions.
@@ -100,6 +102,7 @@ To  evaluate  our  models,   we  propose  **ArBench**,   a new benchmark for mul
 |                   | ACE-2004BN | 70K     | 3,201 | 3,921 | 2,239 |
 |                   | TW-NER     | 81K     | 1,252 | 1,300 | 765   |
 
+---
 
 ## 3 Models Evaluation
 When fine-tuned on ArBench,  ARBERT and MARBERT collectively achieve new SOTA  with sizeable margins compared to all existing models such as mBERT, XLM-R (Base and Large), and  AraBERT on 37 out of 45 classification tasks on the 41 datasets (82.22%). 
@@ -181,6 +184,8 @@ When fine-tuned on ArBench,  ARBERT and MARBERT collectively achieve new SOTA  w
 
 ***Results reported based on F<sub>1</sub> score.***
 
+---
+
 ## 4. Fine-tuning ARBERT and MARBERT
  
  ```python
@@ -193,5 +198,7 @@ If you use our models (ARBERT or MARBERT) for your scientific publication, or if
 citiation
 ```
 
-## Acknowledgements
-Gratefully   acknowledges   support   fromthe   Natural   Sciences   and   Engineering   Research  Council  of  Canada,  the  Social  Sciencesand  Humanities  Research  Council  of  Canada,Canadian  Foundation  for  Innovation,  [ComputeCanada](www.computecanada.ca) and [UBC ARC-Sockeye](https://doi.org/10.14288/SOCKEYE). We  also  thank  the  [Google TensorFlow Research Cloud (TFRC)](https://www.tensorflow.org/tfrc) program for providing us with free TPU access.
+---
+
+## 5. Acknowledgments
+We gratefully acknowledge support from the Natural Sciences and Engineering Research Council  of Canada, the  Social  Sciences and  Humanities  Research  Council  of  Canada, Canadian  Foundation  for  Innovation,  [ComputeCanada](www.computecanada.ca) and [UBC ARC-Sockeye](https://doi.org/10.14288/SOCKEYE). We  also  thank  the  [Google TensorFlow Research Cloud (TFRC)](https://www.tensorflow.org/tfrc) program for providing us with free TPU access.
