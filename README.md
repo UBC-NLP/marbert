@@ -12,10 +12,12 @@ Our new models establish new state-of-the-art (SOTA) on all 5 tasks/task cluster
 Our language models are publicaly available for research (see below).
 The rest of this repository provides more information about our new language models, benchmark, and experiments.
 
+---
+
 ## Table of Contents
 - [1. Our Language Models](##-1-Our-Language-Models)
 - [1.2 Training Data and Vocabulary](#-12-Training-Data-and-Vovocabulary)
-- [2. Our Benchmark: ArBench](#-2-Our-Benchmark:-ArBench)
+- [2. Our Benchmark: ArBench](#-2-Our-Benchmark-ArBench)
 - [3. Models Evaluation](##-3-Models-Evaluation)
   - [3.1 Sentiment Analysis](#31-Sentiment-Analysis)
   - [3.2 Social Meaning](#32-Social-Meaning)
