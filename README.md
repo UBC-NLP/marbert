@@ -1,3 +1,6 @@
+# ARBERT & MARBERT: Deep Bidirectional Transformers for Arabic
+<img src="ARBERT_MARBERT.jpg" alt="drawing" width="30%" height="30%" align="right"/>
+
 # What is the repository is about?
 This is the repository accompanying our paper [ARBERT & MARBERT: Deep Bidirectional Transformers for Arabic]().
 In this paper, we:
@@ -8,10 +11,6 @@ In this paper, we:
 Our new models establish new state-of-the-art (SOTA) on all 5 tasks/task clusters on 37 out of the 41 datasets.
 Our language models are publicaly available for research (see below).
 The rest of this repository provides more information about our new language models, benchmark, and experiments.
-
-
-# ARBERT & MARBERT: Deep Bidirectional Transformers for Arabic
-<img src="ARBERT_MARBERT.jpg" alt="drawing" width="30%" height="30%" align="right"/>
 
 **ARBERT** is a large scale pre-training masked language model focused on Modern Standard Arabic(MSA). To train ARBERT, we use the same architecture as BERT-base: 12 attention layers, each has 12 attention heads and 768 hidden dimensions, avocabulary of 100K WordPieces, making ∼163M parameters. We  train  ARBERT on a collection of Arabic datasets comprising 61GB of text (6.2 B tokens)
 
