@@ -71,7 +71,13 @@ To  evaluate  our  models,   we  propose  **ArBench**,   a new benchmark for mul
 |                   |             NADI (100)             |     Province     |  2,100  |  4,957 |  5,000 |
 |                   |             QADI (18)             |     Country     | 497,816 |   --   |  3,504 |
 
-
+|**Data Type**| **Dataset**    | **#Tokens** | **#PER**  | **#LOC**  | **#ORG**  |
+|------------|---------|-------|-------|-------|
+|Named Entity Recogntion| ANERCorp   | 150K    | 6,504 | 5,018 | 3,437 |
+|                   | ACE-2003BN | 15K     | 832   | 1,223 | 288   |
+|                   | ACE-2003NW | 27K     | 1,146 | 1,147 | 893   |
+|                   | ACE-2004BN | 70K     | 3,201 | 3,921 | 2,239 |
+|                   | TW-NER     | 81K     | 1,252 | 1,300 | 765   |
 
 ## 3 Models Evaluation
 When fine-tuned on ArBench,  ARBERT and MARBERT collectively achieve new SOTA  with sizeable margins compared to all existing models such as mBERT, XLM-R (Base and Large), and  AraBERT on 37 out of 45 classification tasks on the 41 datasets (82.22%). 
