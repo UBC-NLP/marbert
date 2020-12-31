@@ -32,6 +32,58 @@ We compare with ARBERT with mBERT, XLM-R, AraBERT, and MARBERT in terms of data 
 ## 2 ArBench
 To  evaluate  our  models,   we  propose  **ArBench**,   a new benchmark for multi-dialectal Arabic language understanding.  ***ArBench is built using 41 datasets targeting 5 different tasks/task clusters***, allowing us to offer a series of standardized experiments under rich conditions.
 
+| **Data  (#classes)**                    | **TRAIN**   | **DEV**    | **TEST**   |
+|-------------------------------------|---------|--------|--------|
+| AJGT (2)                            |   1,441 | -      |    361 |
+| AraNET<sub>Sent</sub> (2)      | 100,592 | 14,331 | 11,819 |
+| AraSenTi (3)          |  11,117 |  1,407 |  1,382 |
+| ArSarcasm<sub>Sent</sub> (3)   |   8,438 | -      |  2,111 |
+| ArSAS (3)                           |  24,773 | -      |  3,692 |
+| ArsenTD-LEV (5)                     |   3,201 | -      |    801 |
+| ASTD (3)                            |  24,773 | -      |    664 |
+| ASTD-B(2)                           |   1,065 | --     |    267 |
+| AWATIF(4)                           |   2,284 |    288 |    284 |
+| BBN(3)                              |     960 |    125 |    116 |
+| HARD (2)                            |  84,517 | -      | 21,130 |
+| LABR (2)                            |  13,161 |        |  3,288 |
+| SAMAR(5)                            |   2,491 |    310 |    316 |
+| SemEval (3)                         |  24,773 | -      |  6,101 |
+| SYTS(3)                             |     960 |    202 |    199 |
+| Twitter<sub>Saad</sub> (2) |   1,569 |    202 |    190 |
+| Twitter<sub>Abdullah</sub> (2)     |  46,999 |  5,779 |  5,824 |
+
+
+| **Dataset**                   |**Task (#classes)** | **TRAIN**   | **DEV**    | **TEST**   |
+|---------------------------|:---------------:|---------|--------|--------|
+| Arab_Tweet                |     Age (3)     | 1285796 | 160725 | 160726 |
+| Arab_Tweet                |    Gender (2)   | 1285796 | 160725 | 160726 |
+| AraNET<sub>Emo</sub> |   Emotion (8)   |  189903 |    911 |    942 |
+| AraSarcasm                |   Sarcasm (2)   |   8,438 | -      |  2,111 |
+| Dangerous                 |  Dangerous (2)  |    3475 |    616 |    664 |
+| IDAT@FIRE2019             |    Irony (2)    |    3622 | -      |    404 |
+| OSACT shared task (A)     |  Offensive (2)  |   10000 |   1000 |   2000 |
+| OSACT shared task (B)     |  Hate Speech(2) |   10000 |   1000 |   2000 |
+
+
+|              **Dataset**              | **Task (#classes)** | **TRAIN**   | **DEV**    | **TEST**   |
+|:---------------------------------:|:---------------:|---------|--------|--------|
+|              AOC (2)              |      Binary     |  86,541 | 10,809 | 10,807 |
+|           MADAR-TL (21)           |     Country     | 193,087 | 26,589 | 43,910 |
+|             QADI (18)             |     Country     | 497,816 |   --   |  3,504 |
+|             NADI (21)             |     Country     |  2,100  |  4,957 |  5,000 |
+|              AOC (3)              |      Region     |  35,679 |  4,464 |  4,455 |
+|              AOC (3)              |      Region     |  86,489 | 10,814 | 10,803 |
+| ArSarcasm<sub>Dia</sub> (5) |      Regoin     |  8,438  |    -   |  2,111 |
+
+
+|  **Task (#classes)** | **TRAIN** | **DEV**  | **TEST** |
+|:----------------:|-------|------|------|
+|  Watan-2004 (6)  | 16232 | 2031 | 2030 | 
+|  osac-uft8 (10)  | 17944 | 2244 | 2244 | 
+| Khallej-2004 (4) |  4553 |  570 |  570 | 
+|  ANT-Corpus (5)  | 25219 | 3154 | 3153 |  
+
+
 ## 3 Models Evaluation
 When fine-tuned on ArBench,  ARBERT and MARBERT collectively achieve new SOTA  with sizeable margins compared to all existing models such as mBERT, XLM-R (Base and Large), and  AraBERT on 37 out of 45 classification tasks on the 41 datasets (82.22%). 
 
@@ -60,7 +112,7 @@ When fine-tuned on ArBench,  ARBERT and MARBERT collectively achieve new SOTA  w
 | Twitter<sub>Saad</sub> (2)               | 79.00 | 95.00 | 95.00 | 81.00 | 90.00 | **96.00** |
 | SAMAR(5)                   | 22.50 | 54.00 | **57.00** | 36.50 | 43.50 | 55.50 |
 | AWATIF(4)                  | 60.50 | 63.50 | 68.50 | 66.50 | 71.50 | **72.50** |
-|  Twitter<sub>Abdullah</sub> (2)           | 81.50 | 91.00 | 92.00 | 89.50 | 91.50 | **95.00** |
+| Twitter<sub>Abdullah</sub> (2)           | 81.50 | 91.00 | 92.00 | 89.50 | 91.50 | **95.00** |
 
 ***Results reported based on F<sub>1</sub><sup>NP</sup> score.***
 ### 3.2 Social Meaning
