@@ -104,16 +104,16 @@ To  evaluate  our  models, we  also introduce  **ArBench**,   a new benchmark fo
 
 ### 2.4 Dialect Identification
 
-| **Data  (#classes)**                    | **TRAIN**   | **DEV**    | **TEST**   |
-|-------------------------------------|---------|--------|--------|
-|              AOC (2)              |      Binary     |  86,541 | 10,809 | 10,807 |
-|              AOC (3)              |      Region     |  35,679 |  4,464 |  4,455 |
-|              AOC (4)              |      Region     |  86,489 | 10,814 | 10,803 |
-| ArSarcasm<sub>Dia</sub> (5) |      Regoin     |  8,438  |    -   |  2,111 |
-|           MADAR-TL (21)           |     Country     | 193,087 | 26,589 | 43,910 |
-|             NADI (21)             |     Country     |  2,100  |  4,957 |  5,000 |
-|             NADI (100)             |     Province     |  2,100  |  4,957 |  5,000 |
-|             QADI (18)             |     Country     | 497,816 |   --   |  3,504 |
+|**Reference**| **Data  (#classes)**                    | **TRAIN**   | **DEV**    | **TEST**   |
+|-----------|--------------------------|---------|--------|--------|
+||              AOC (2)              |      Binary     |  86,541 | 10,809 | 10,807 |
+||              AOC (3)              |      Region     |  35,679 |  4,464 |  4,455 |
+||              AOC (4)              |      Region     |  86,489 | 10,814 | 10,803 |
+|| ArSarcasm<sub>Dia</sub> (5) |      Regoin     |  8,438  |    -   |  2,111 |
+||           MADAR-TL (21)           |     Country     | 193,087 | 26,589 | 43,910 |
+||             NADI (21)             |     Country     |  2,100  |  4,957 |  5,000 |
+||             NADI (100)             |     Province     |  2,100  |  4,957 |  5,000 |
+||             QADI (18)             |     Country     | 497,816 |   --   |  3,504 |
 ---
 
 ### 2.5 Named Entity Recogntion
