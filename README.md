@@ -63,54 +63,48 @@ To  evaluate  our  models, we  also introduce  **ArBench**,   a new benchmark fo
 
 ### 2.1 Sentiment Analysis
 
-
-| **Data  (#classes)**     | **TRAIN**   | **DEV**    | **TEST**   | **Reference**|
+|**Reference**| **Data  (#classes)**     | **TRAIN**   | **DEV**    | **TEST**   |
 |---------|--------|--------|-------|------|
-|AJGT (2)      |   1.4K | -      |    361 |  |
-|AraNET<sub>Sent</sub> (2)      | 100K | 14.3K | 11.8K | |
-|AraSenTi (3)          |  11.1K |  1.40K|  1.38K | |
-|ArSarcasm<sub>Sent</sub> (3)   |   8.4K | -      |  2.K | |
-|ArSAS (3)                           |  24.7K | -      |  3.6K | |
-|ArsenTD-LEV (5)                     |   3.2K | -      |    801 | |
-|ASTD (3)                            |  24.7K | -      |    664 | |
-|ASTD-B(2)                           |   1.06K | --     |    267 | |
-|AWATIF(4)                           |   2.28K |    288 |    284 | |
-|BBN(3)                              |     960 |    125 |    116 | |
-|HARD (2)                            |  84.5K | -      | 21.1K | |
-|LABR (2)                            |  13.1K |        |  3.28K | |
-|SAMAR(5)                            |   2.49K |    310 |    316 | |
-|SemEval (3)                         |  24.7K | -      |  6.10K | |
-|SYTS(3)                             |     960 |    202 |    199 | |
-|Twitter<sub>Saad</sub> (2) |   1.5K |    202 |    190 | |
-|Twitter<sub>Abdullah</sub> (2)     |  46k |  5.77k |  5.82k | |
+||AJGT (2)      |   1.4K | -      |    361 | 
+||AraNET<sub>Sent</sub> (2)      | 100K | 14.3K | 11.8K |
+||AraSenTi (3)          |  11,117 |  1,407 |  1,382 | 
+||ArSarcasm<sub>Sent</sub> (3)   |   8.4K | -      |  2.K | 
+||ArSAS (3)                           |  24.7K | -      |  3.6K | 
+||ArsenTD-LEV (5)                     |   3.2K | -      |    801 | 
+||ASTD (3)                            |  24.7K | -      |    664 | 
+||ASTD-B(2)                           |   1.06K | --     |    267 | 
+||AWATIF(4)                           |   2.28K |    288 |    284 | 
+||BBN(3)                              |     960 |    125 |    116 | 
+||HARD (2)                            |  84.5K | -      | 21.1K | 
+||LABR (2)                            |  13.1K |        |  3.28K | 
+||SAMAR(5)                            |   2.49K |    310 |    316 | 
+||SemEval (3)                         |  24.7K | -      |  6.10K | 
+||SYTS(3)                             |     960 |    202 |    199 | 
+||Twitter<sub>Saad</sub> (2) |   1.5K |    202 |    190 | |
+||Twitter<sub>Abdullah</sub> (2)     |  46k |  5.77k |  5.82k | 
 ---
-
 ### 2.2 Social Meaning
 
-| **Data  (#classes)**                    | **TRAIN**   | **DEV**    | **TEST**   |
-|-------------------------------------|---------|--------|--------|
-| Twitter<sub>Abdullah</sub> (2)     |  46,999 |  5,779 |  5,824 |
-| Arab_Tweet - Age (3)     | 1285796 | 160725 | 160726 |
-| Arab_Tweet - Gender (2)   | 1285796 | 160725 | 160726 |
-| AraNET<sub>Emo</sub> - Emotion (8)   |  189903 |    911 |    942 |
-| AraSarcasm  - Sarcasm (2)   |   8,438 | -      |  2,111 |
-| Dangerous(2)  |    3475 |    616 |    664 |
-| FIRE2019 - Irony (2)    |    3622 | -      |    404 |
-| OSACT-A - Offensive (2)  |   10000 |   1000 |   2000 |
-| OSACT-B - Hate Speech(2) |   10000 |   1000 |   2000 |
-
+|**Reference**| **Data  (#classes)**                    | **TRAIN**   | **DEV**    | **TEST**   | 
+|-------------------------------------|---------|--------|--------|-------|
+|| Arab_Tweet - Age (3)     | 1.28M | 160K | 160K | 
+|| Arab_Tweet - Gender (2)   | 1.28M | 160K | 160K |
+|| AraNET<sub>Emo</sub> - Emotion (8)   |  189K |    911 |    942 | 
+|| AraSarcasm  - Sarcasm (2)   |   8.4K | -      |  2.1K | 
+|| Dangerous(2)  |    3.4K |    616 |    664 | 
+|| FIRE2019 - Irony (2)    |    3.6K | -      |    404 | 
+|| OSACT-A - Offensive (2)  |   10K |   1K |   2K | 
+|| OSACT-B - Hate Speech(2) |   10K |   1K |   2K | 
 ---
+
 
 ### 2.3 Topic Classification
 
-| **Data  (#classes)**                    | **TRAIN**   | **DEV**    | **TEST**   |
-|-------------------------------------|---------|--------|--------|
-|**Topic Classification**|  OSAC (10)  | 17944 | 2244 | 2244 | 
-|                   | Khallej (4) |  4553 |  570 |  570 | 
-|                   |  ANT(5)  | 25219 | 3154 | 3153 |  
-
+|   **Reference**                 | **Data  (#classes)**                    | **TRAIN**   | **DEV**    | **TEST**   |
+|                  |  OSAC (10)  | 17.9K | 2.24K | 2.24K | 
+|                   | Khallej (4) |  4.55K |  570 |  570 | 
+|                   |  ANT(5)  | 25.2K | 31.5K | 31.5K |  
 ---
-
 ### 2.4 Dialect Identification
 
 | **Data  (#classes)**                    | **TRAIN**   | **DEV**    | **TEST**   |
@@ -123,8 +117,6 @@ To  evaluate  our  models, we  also introduce  **ArBench**,   a new benchmark fo
 |             NADI (21)             |     Country     |  2,100  |  4,957 |  5,000 |
 |             NADI (100)             |     Province     |  2,100  |  4,957 |  5,000 |
 |             QADI (18)             |     Country     | 497,816 |   --   |  3,504 |
-
-
 ---
 
 ### 2.5 Named Entity Recogntion
