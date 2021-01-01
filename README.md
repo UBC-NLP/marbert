@@ -106,26 +106,25 @@ To  evaluate  our  models, we  also introduce  **ArBench**,   a new benchmark fo
 
 |**Reference**| **Data  (#classes)**                    | **TRAIN**   | **DEV**    | **TEST**   |
 |-----------|--------------------------|---------|--------|--------|
-||              AOC (2)              |      Binary     |  86,541 | 10,809 | 10,807 |
-||              AOC (3)              |      Region     |  35,679 |  4,464 |  4,455 |
-||              AOC (4)              |      Region     |  86,489 | 10,814 | 10,803 |
-|| ArSarcasm<sub>Dia</sub> (5) |      Regoin     |  8,438  |    -   |  2,111 |
-||           MADAR-TL (21)           |     Country     | 193,087 | 26,589 | 43,910 |
-||             NADI (21)             |     Country     |  2,100  |  4,957 |  5,000 |
-||             NADI (100)             |     Province     |  2,100  |  4,957 |  5,000 |
-||             QADI (18)             |     Country     | 497,816 |   --   |  3,504 |
+||              AOC (2)              |      Binary     |  86.5K | 10.8K | 10.8K |
+||              AOC (3)              |      Region     |  35.7K |  4.46K |  4.45K |
+||              AOC (4)              |      Region     |  86.5K | 10.8K | 10.8K |
+|| ArSarcasm<sub>Dia</sub> (5) |      Regoin     |  8.43K |    -   |  2.11K |
+||           MADAR-TL (21)           |     Country     | 193K | 26.6K | 43.9K |
+||             NADI (21)             |     Country     |  2.1K  |  4.96K |  5K |
+||             NADI (100)             |     Province     |  2.1K  |  4.96K |  5K |
+||             QADI (18)             |     Country     | 498K |   --   |  3.5K |
 ---
 
 ### 2.5 Named Entity Recogntion
 
-| **Dataset**| **#Tokens** | **#PER**  | **#LOC**  | **#ORG**  |
-|------------|-------------|-----------|------------|----------|
-| ANERCorp   | 150K    | 6,504 | 5,018 | 3,437 |
-| ACE-2003BN | 15K     | 832   | 1,223 | 288   |
-| ACE-2003NW | 27K     | 1,146 | 1,147 | 893   |
-| ACE-2004BN | 70K     | 3,201 | 3,921 | 2,239 |
-| TW-NER     | 81K     | 1,252 | 1,300 | 765   |
-
+|**Reference**|  **Dataset**| **#Tokens** | **#PER**  | **#LOC**  | **#ORG**  |
+|---------|-----------|-------------|-----------|------------|----------|
+|| ANERCorp   | 150K    | 6.50K | 5.01K | 3.43K |
+|| ACE-2003BN | 15K     | 832   | 1.22K | 288   |
+|| ACE-2003NW | 27K     | 1.14K | 1.14K | 893   |
+|| ACE-2004BN | 70K     | 3.20K | 3.92K | 2.23K |
+|| TW-NER     | 81K     | 1.25K | 1.30K | 765   |
 ---
 
 ## 3 Model Evaluation
