@@ -83,7 +83,7 @@ To  evaluate  our  models, we  also introduce  **ArBench**,   a new benchmark fo
 ||SYTS(3)                             |     960 |    202 |    199 | 
 ||Twitter<sub>Saad</sub> (2) |   1.5K |    202 |    190 | |
 ||Twitter<sub>Abdullah</sub> (2)     |  46k |  5.77k |  5.82k | 
----
+
 ### 2.2 Social Meaning
 
 |**Reference**| **Data  (#classes)**                    | **TRAIN**   | **DEV**    | **TEST**   | 
@@ -96,10 +96,16 @@ To  evaluate  our  models, we  also introduce  **ArBench**,   a new benchmark fo
 || FIRE2019 - Irony (2)    |    3.6K | -      |    404 | 
 || OSACT-A - Offensive (2)  |   10K |   1K |   2K | 
 || OSACT-B - Hate Speech(2) |   10K |   1K |   2K | 
----
 
 
 ### 2.3 Topic Classification
+
+
+|   **Reference**                 | **Data  (#classes)**                    | **TRAIN**   | **DEV**    | **TEST**   |
+|-------------------------------------|---------|--------|--------|-------|
+|                  |  OSAC (10)  | 17.9K | 2.24K | 2.24K | 
+|                   | Khallej (4) |  4.55K |  570 |  570 | 
+|                   |  ANT(5)  | 25.2K | 31.5K | 31.5K |  
 
 
 ### 2.4 Dialect Identification
@@ -114,7 +120,7 @@ To  evaluate  our  models, we  also introduce  **ArBench**,   a new benchmark fo
 ||             NADI (21)             |     Country     |  2.1K  |  4.96K |  5K |
 ||             NADI (100)             |     Province     |  2.1K  |  4.96K |  5K |
 ||             QADI (18)             |     Country     | 498K |   --   |  3.5K |
----
+
 
 ### 2.5 Named Entity Recogntion
 
