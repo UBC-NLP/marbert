@@ -40,9 +40,9 @@ The rest of this repository provides more information about our new language mod
 ## 1. Our Language Models
 
 ## 1.1 ARBERT & MARBERT
-**ARBERT** is a large-scale pre-trained masked language model focused on Modern Standard Arabic (MSA). To train ARBERT, we use the same architecture as BERT-base: 12 attention layers, each has 12 attention heads and 768 hidden dimensions, a vocabulary of 100K WordPieces, making ∼163M parameters. We  train  ARBERT on a collection of Arabic datasets comprising 61GB of text (6.2B tokens)
+**ARBERT** is a large scale pre-training masked language model focused on Modern Standard Arabic (MSA). To train ARBERT, we use the same architecture as BERT-base: 12 attention layers, each has 12 attention heads and 768 hidden dimensions, a vocabulary of 100K WordPieces, making ∼163M parameters. We  train  ARBERT on a collection of Arabic datasets comprising 61GB of text (6.2B tokens)
 
-**MARBERT** is a large-scale pre-trained masked language model focused on both Dialectal Arabic (DA) and MSA. Arabic has multiple varieties. To train MARBERT, we randomly sample 1B Arabic tweets from a large in-house dataset of about 6B tweets. We only include tweets with at least 3 Arabic words, based on character string matching, regardless whether the tweet has non-Arabic string or not. That is, we do not remove non-Arabic so long as the tweet meets the 3 Arabic word criterion. The dataset makes up 128GB of text (15.6B tokens). We use the same network architecture as ARBERT (BERT-base), but without the next sentence prediction (NSP) objective since tweets are short. See our [repo](https://github.com/UBC-NLP/LMBERT) for modifying BERT code to remove NSP.
+**MARBERT** is a large scale pre-training masked language model focused on both Dialectal Arabic (DA) and MSA. Arabic has multiple varieties. To train MARBERT, we randomly sample 1B Arabic tweets from a large in-house dataset of about 6B tweets. We only include tweets with at least 3 Arabic words, based on character string matching, regardless whether the tweet has non-Arabic string or not. That is, we do not remove non-Arabic so long as the tweet meets the 3 Arabic word criterion. The dataset makes up 128GB of text (15.6B tokens). We use the same network architecture as ARBERT (BERT-base), but without the next sentence prediction (NSP) objective since tweets are short. See our [repo](https://github.com/UBC-NLP/LMBERT) for modifying BERT code to remove NSP.
 
 ## 1.2 Training Data and Vocabulary
 
@@ -103,9 +103,9 @@ To  evaluate  our  models, we  also introduce  **ArBench**,   a new benchmark fo
 
 |   **Reference**                 | **Data  (#classes)**                    | **TRAIN**   | **DEV**    | **TEST**   |
 |-------------------------------------|---------|--------|--------|-------|
-|                  |  OSAC (10)  | 17.9K | 2.24K | 2.24K | 
-|                   | Khallej (4) |  4.55K |  570 |  570 | 
-|                   |  ANT(5)  | 25.2K | 31.5K | 31.5K |  
+|[Saad and Ashour (2010)](https://www.researchgate.net/publication/320871842_ANT_Corpus_An_Arabic_News_Text_Collection_for_Textual_Classification)                  |  OSAC (10)  | 17.9K | 2.24K | 2.24K | 
+|[Abbas et al. (2011)](https://www.semanticscholar.org/paper/Evaluation-of-Topic-Identification-Methods-on-Abbas-Sma%C3%AFli/fec1c5be9ba9d0dfc96a5d8e46b4767c54802d72)                  | Khallej (4) |  4.55K |  570 |  570 | 
+|[Chouigui et al. (2017)](https://www.researchgate.net/publication/234136250_OSAC_Open_Source_Arabic_Corpora)                   |  ANT(5)  | 25.2K | 31.5K | 31.5K |  
 
 
 ### 2.4 Dialect Identification
@@ -126,11 +126,11 @@ To  evaluate  our  models, we  also introduce  **ArBench**,   a new benchmark fo
 
 |**Reference**|  **Dataset**| **#Tokens** | **#PER**  | **#LOC**  | **#ORG**  |
 |---------|-----------|-------------|-----------|------------|----------|
-|| ANERCorp   | 150K    | 6.50K | 5.01K | 3.43K |
-|| ACE-2003BN | 15K     | 832   | 1.22K | 288   |
-|| ACE-2003NW | 27K     | 1.14K | 1.14K | 893   |
-|| ACE-2004BN | 70K     | 3.20K | 3.92K | 2.23K |
-|| TW-NER     | 81K     | 1.25K | 1.30K | 765   |
+|[Benajiba and Rosso (2007)](http://www.dsic.upv.es/~prosso/resources/BenajibaRosso_IICAI07.pdf) | ANERCorp   | 150K    | 6.50K | 5.01K | 3.43K |
+|[Mitchell et al. (2004)](https://catalog.ldc.upenn.edu/LDC2004T09)| ACE-2003BN | 15K     | 832   | 1.22K | 288   |
+|[Mitchell et al. (2004)](https://catalog.ldc.upenn.edu/LDC2004T09)| ACE-2003NW | 27K     | 1.14K | 1.14K | 893   |
+|[Mitchell et al. (2005)](https://catalog.ldc.upenn.edu/LDC2005T09)| ACE-2004BN | 70K     | 3.20K | 3.92K | 2.23K |
+|[Darwish (2013)](https://www.aclweb.org/anthology/P13-1153)| TW-NER     | 81K     | 1.25K | 1.30K | 765   |
 ---
 
 ## 3 Model Evaluation
