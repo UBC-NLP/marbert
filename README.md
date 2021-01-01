@@ -94,10 +94,6 @@ To  evaluate  our  models,   we  propose  **ArBench**,   a new benchmark for mul
 | Arab_Tweet - Age (3)     | 1285796 | 160725 | 160726 |
 | Arab_Tweet - Gender (2)   | 1285796 | 160725 | 160726 |
 | AraNET<sub>Emo</sub> - Emotion (8)   |  189903 |    911 |    942 |
-
----
-
-
 | AraSarcasm  - Sarcasm (2)   |   8,438 | -      |  2,111 |
 |-------------------------------------|---------|--------|--------|
 | Dangerous(2)  |    3475 |    616 |    664 |
