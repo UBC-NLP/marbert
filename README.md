@@ -256,7 +256,7 @@ ARBERT and MARBERT are available for direct download and use ```exclusively for 
 ---
 
 ## 7. Citation
-If you use our models (ARBERT or MARBERT) for your scientific publication, or if you find the resources in this repository useful, please cite one of the following paper:
+If you use our models (ARBERT or MARBERT) for your scientific publication, or if you find the resources in this repository useful, please cite our paper as follows (to be updated):
 ```
 @article{mageed2020marbert,
   title={ARBERT & MARBERT: Deep Bidirectional Transformers for Arabic},
