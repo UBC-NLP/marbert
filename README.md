@@ -101,11 +101,7 @@ To  evaluate  our  models, we  also introduce  **ArBench**,   a new benchmark fo
 
 ### 2.3 Topic Classification
 
-|   **Reference**                 | **Data  (#classes)**                    | **TRAIN**   | **DEV**    | **TEST**   |
-|                  |  OSAC (10)  | 17.9K | 2.24K | 2.24K | 
-|                   | Khallej (4) |  4.55K |  570 |  570 | 
-|                   |  ANT(5)  | 25.2K | 31.5K | 31.5K |  
----
+
 ### 2.4 Dialect Identification
 
 | **Data  (#classes)**                    | **TRAIN**   | **DEV**    | **TEST**   |
