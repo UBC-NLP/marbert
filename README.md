@@ -24,7 +24,7 @@ The rest of this repository provides more information about our new language mod
   - [2.3 Topic Classification](#23-topic-classification)
   - [2.4 Dialect Identification](#24-dialect-identification)
   - [2.5 Named Entity Recogntion (NER)](#25-named-entity-recogntion)
-- [3. Models Evaluation](#3-models-evaluation)
+- [3. Model Evaluation](#3-model-evaluation)
   - [3.1 Sentiment Analysis](#31-sentiment-analysis)
   - [3.2 Social Meaning](#32-social-meaning)
   - [3.3 Topic Classification](#33-topic-classification)
@@ -135,7 +135,7 @@ To  evaluate  our  models,   we  propose  **ArBench**,   a new benchmark for mul
 
 ---
 
-## 3 Models Evaluation
+## 3 Model Evaluation
 When fine-tuned on ArBench,  ARBERT and MARBERT collectively achieve new SOTA  with sizeable margins compared to all existing models such as mBERT, XLM-R (Base and Large), and  AraBERT on 37 out of 45 classification tasks on the 41 datasets (82.22%). 
 
 ### 3.1 Sentiment Analysis
