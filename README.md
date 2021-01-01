@@ -110,17 +110,17 @@ To  evaluate  our  models, we  also introduce  **ArBench**,   a new benchmark fo
 
 ### 2.4 Dialect Identification
 
+
 |**Reference**| **Data  (#classes)**                    | **TRAIN**   | **DEV**    | **TEST**   |
 |-----------|--------------------------|---------|--------|--------|
-||              AOC (2)              |      Binary     |  86.5K | 10.8K | 10.8K |
-||              AOC (3)              |      Region     |  35.7K |  4.46K |  4.45K |
-||              AOC (4)              |      Region     |  86.5K | 10.8K | 10.8K |
-|| ArSarcasm<sub>Dia</sub> (5) |      Regoin     |  8.43K |    -   |  2.11K |
-||           MADAR-TL (21)           |     Country     | 193K | 26.6K | 43.9K |
-||             NADI (21)             |     Country     |  2.1K  |  4.96K |  5K |
-||             NADI (100)             |     Province     |  2.1K  |  4.96K |  5K |
-||             QADI (18)             |     Country     | 498K |   --   |  3.5K |
-
+|[Zaidan  and  Callison-Burch (2014)](https://www.mitpressjournals.org/doi/full/10.1162/COLI_a_00169)|              AOC (2)              |      Binary     |  86.5K | 10.8K | 10.8K |
+|[Zaidan  and  Callison-Burch (2014)](https://www.mitpressjournals.org/doi/full/10.1162/COLI_a_00169)|              AOC (3)              |      Region     |  35.7K |  4.46K |  4.45K |
+|[Zaidan  and  Callison-Burch (2014)](https://www.mitpressjournals.org/doi/full/10.1162/COLI_a_00169)|              AOC (4)              |      Region     |  86.5K | 10.8K | 10.8K |
+|[Farha, Ibrahim Abu, and Walid Magdy (2020](https://www.aclweb.org/anthology/2020.osact-1.5/)| ArSarcasm<sub>Dia</sub> (5) |      Regoin     |  8.43K |    -   |  2.11K |
+|[Bouamor et al. (2019)](https://www.aclweb.org/anthology/W19-4622.pdf)|           MADAR-TL (21)           |     Country     | 193K | 26.6K | 43.9K |
+|[Abdul-Mageed,  et  al. (2020)](https://arxiv.org/abs/2010.11334)|             NADI (21)             |     Country     |  2.1K  |  4.96K |  5K |
+|[Abdul-Mageed,  et  al. (2020)](https://arxiv.org/abs/2010.11334)|             NADI (100)             |     Province     |  2.1K  |  4.96K |  5K |
+|[Abdelali et al. (2020)](https://arxiv.org/abs/2005.06557)|             QADI (18)             |     Country     | 498K |   --   |  3.5K |
 
 ### 2.5 Named Entity Recogntion
 
