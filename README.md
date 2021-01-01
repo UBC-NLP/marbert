@@ -146,7 +146,7 @@ When fine-tuned on ArBench,  ARBERT and MARBERT collectively achieve new SOTA  w
 | LABR (2)           | 91.20 |   91.23   |    92.20   |  91.97 | 92.51 |  **92.49** |
 | ASTD-B(2)          |  79.32 |   87.59   |    77.44   |  83.08 | 93.23 |  **96.24** |
 
-***Results reported based on Acc. score***
+***Results reported based on Acc.***
 
 | **Dataset (#classes)** |  **mBERT** | **XLM-R<sub>B</sub>** | **XLM-R<sub>L</sub>** | **AraBERT** | **ARBERT** | **MARBERT** |
 |--------------------|:------:|:----------:|:-----------:|:-------:|:------:|:-------:|
