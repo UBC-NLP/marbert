@@ -195,7 +195,12 @@ When fine-tuned on ArBench,  ARBERT and MARBERT collectively achieve new SOTA  w
 ## Citation
 If you use our models (ARBERT or MARBERT) for your scientific publication, or if you find the resources in this repository useful, please cite one of the following paper:
 ```
-citiation
+@article{mageed2020marbert,
+  title={ARBERT & MARBERT: Deep Bidirectional Transformers for Arabic},
+  author={Abdul-Mageed, Muhammad and Elmadany, AbdelRahim, and Nagoudi, El Moatez Billah},
+  journal={arXiv preprint},
+  year={2020}
+}
 ```
 
 ---
