@@ -66,13 +66,13 @@ To  evaluate  our  models, we  also introduce  **ArBench**,   a new benchmark fo
 
 |**Reference**| **Data  (#classes)**     | **TRAIN**   | **DEV**    | **TEST**   |
 |---------|--------|--------|-------|------|
-||AJGT (2)      |   1.4K | -      |    361 | 
-||AraNET<sub>Sent</sub> (2)      | 100K | 14.3K | 11.8K |
-||AraSenTi (3)          |  11,117 |  1,407 |  1,382 | 
-||ArSarcasm<sub>Sent</sub> (3)   |   8.4K | -      |  2.K | 
-||ArSAS (3)                           |  24.7K | -      |  3.6K | 
-||ArsenTD-LEV (5)                     |   3.2K | -      |    801 | 
-||ASTD (3)                            |  24.7K | -      |    664 | 
+|Alomari et al. (2017)|AJGT (2)      |   1.4K | -      |    361 | 
+|Abdul-Mageed et al. (2020b) |AraNET<sub>Sent</sub> (2)      | 100K | 14.3K | 11.8K |
+|Al-Twairesh et al. (2017)|AraSenTi (3)          |  11,117 |  1,407 |  1,382 | 
+|Al-Twairesh et al. (2017)|ArSarcasm<sub>Sent</sub> (3)   |   8.4K | -      |  2.K | 
+|Elmadany et al. (2018)|ArSAS (3)                           |  24.7K | -      |  3.6K | 
+|Baly et al. (2019)|ArsenTD-LEV (5)                     |   3.2K | -      |    801 | 
+|Nabil et al. (2015)|ASTD (3)                            |  24.7K | -      |    664 | 
 ||ASTD-B(2)                           |   1.06K | --     |    267 | 
 ||AWATIF(4)                           |   2.28K |    288 |    284 | 
 ||BBN(3)                              |     960 |    125 |    116 | 
