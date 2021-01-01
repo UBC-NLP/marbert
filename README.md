@@ -54,9 +54,12 @@ We compare with ARBERT with mBERT, XLM-R, AraBERT, and MARBERT in terms of data 
 ## 2. Our Benchmark: ArBench
 To  evaluate  our  models,   we  propose  **ArBench**,   a new benchmark for multi-dialectal Arabic language understanding.  ***ArBench is built using 41 datasets targeting 5 different tasks/task clusters***, allowing us to offer a series of standardized experiments under rich conditions.
 
-|**Data Type** | **Data  (#classes)**                    | **TRAIN**   | **DEV**    | **TEST**   |
+### 2.1 Sentiment Analysis
+
+
+|                    | **Data  (#classes)**                    | **TRAIN**   | **DEV**    | **TEST**   |
 |-------------------|-------------------------------------|---------|--------|--------|
-|Sentiment Analysis | AJGT (2)                            |   1,441 | -      |    361 |
+|                   | AJGT (2)                            |   1,441 | -      |    361 |
 |                   | AraNET<sub>Sent</sub> (2)      | 100,592 | 14,331 | 11,819 |
 |                   | AraSenTi (3)          |  11,117 |  1,407 |  1,382 |
 |                   | ArSarcasm<sub>Sent</sub> (3)   |   8,438 | -      |  2,111 |
@@ -64,7 +67,7 @@ To  evaluate  our  models,   we  propose  **ArBench**,   a new benchmark for mul
 |                   | ArsenTD-LEV (5)                     |   3,201 | -      |    801 |
 |                   | ASTD (3)                            |  24,773 | -      |    664 |
 |                   | ASTD-B(2)                           |   1,065 | --     |    267 |
-|                   | AWATIF(4)                           |   2,284 |    288 |    284 |
+|**Sentiment Analysis** | AWATIF(4)                           |   2,284 |    288 |    284 |
 |                   | BBN(3)                              |     960 |    125 |    116 |
 |                   | HARD (2)                            |  84,517 | -      | 21,130 |
 |                   | LABR (2)                            |  13,161 |        |  3,288 |
@@ -72,19 +75,28 @@ To  evaluate  our  models,   we  propose  **ArBench**,   a new benchmark for mul
 |                   | SemEval (3)                         |  24,773 | -      |  6,101 |
 |                   | SYTS(3)                             |     960 |    202 |    199 |
 |                   | Twitter<sub>Saad</sub> (2) |   1,569 |    202 |    190 |
+
+---
+
+|                    | **Data  (#classes)**                    | **TRAIN**   | **DEV**    | **TEST**   |
 |                   | Twitter<sub>Abdullah</sub> (2)     |  46,999 |  5,779 |  5,824 |
-|Social Meaning| Arab_Tweet - Age (3)     | 1285796 | 160725 | 160726 |
+|                  | Arab_Tweet - Age (3)     | 1285796 | 160725 | 160726 |
 |                   | Arab_Tweet - Gender (2)   | 1285796 | 160725 | 160726 |
 |                   | AraNET<sub>Emo</sub> - Emotion (8)   |  189903 |    911 |    942 |
-|                   | AraSarcasm  - Sarcasm (2)   |   8,438 | -      |  2,111 |
+|**Social Meaning**  | AraSarcasm  - Sarcasm (2)   |   8,438 | -      |  2,111 |
 |                   | Dangerous(2)  |    3475 |    616 |    664 |
 |                   | FIRE2019 - Irony (2)    |    3622 | -      |    404 |
 |                   | OSACT-A - Offensive (2)  |   10000 |   1000 |   2000 |
 |                   | OSACT-B - Hate Speech(2) |   10000 |   1000 |   2000 |
-|Topic Classification|  OSAC (10)  | 17944 | 2244 | 2244 | 
+---
+
+|                    | **Data  (#classes)**                    | **TRAIN**   | **DEV**    | **TEST**   |
+|**Topic Classification**|  OSAC (10)  | 17944 | 2244 | 2244 | 
 |                   | Khallej (4) |  4553 |  570 |  570 | 
 |                   |  ANT(5)  | 25219 | 3154 | 3153 |  
-|Dialect Identification|              AOC (2)              |      Binary     |  86,541 | 10,809 | 10,807 |
+---
+|                    | **Data  (#classes)**                    | **TRAIN**   | **DEV**    | **TEST**   |
+|**Dialect Identification**|              AOC (2)              |      Binary     |  86,541 | 10,809 | 10,807 |
 |                   |              AOC (3)              |      Region     |  35,679 |  4,464 |  4,455 |
 |                   |              AOC (4)              |      Region     |  86,489 | 10,814 | 10,803 |
 |                   | ArSarcasm<sub>Dia</sub> (5) |      Regoin     |  8,438  |    -   |  2,111 |
@@ -93,7 +105,7 @@ To  evaluate  our  models,   we  propose  **ArBench**,   a new benchmark for mul
 |                   |             NADI (100)             |     Province     |  2,100  |  4,957 |  5,000 |
 |                   |             QADI (18)             |     Country     | 497,816 |   --   |  3,504 |
 
-
+---
 |**Data Type**| **Dataset**| **#Tokens** | **#PER**  | **#LOC**  | **#ORG**  |
 |-------------|------------|-------------|-----------|------------|----------|
 |Named Entity Recogntion| ANERCorp   | 150K    | 6,504 | 5,018 | 3,437 |
