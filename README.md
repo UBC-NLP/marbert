@@ -62,39 +62,42 @@ The following table shows a comparison between ARBERT and mBERT, on the one hand
 To  evaluate  our  models, we  also introduce  **ArBench**,   a new benchmark for multi-dialectal Arabic language understanding.  ***ArBench is built using 41 datasets targeting 5 different tasks/task clusters***, allowing us to offer a series of standardized experiments under rich conditions. The following are the different tasks/task clusers covered by ArBench:
 
 ### 2.1 Sentiment Analysis
-|**Reference**| **Data  (#classes)**     | **TRAIN**   | **DEV**    | **TEST**   |
+
+
+| **Data  (#classes)**     | **TRAIN**   | **DEV**    | **TEST**   | **Reference**|
 |---------|--------|--------|-------|------|
-||AJGT (2)      |   1.4K | -      |    361 | 
-||AraNET<sub>Sent</sub> (2)      | 100K | 14.3K | 11.8K |
-||AraSenTi (3)          |  11,117 |  1,407 |  1,382 | 
-||ArSarcasm<sub>Sent</sub> (3)   |   8.4K | -      |  2.K | 
-||ArSAS (3)                           |  24.7K | -      |  3.6K | 
-||ArsenTD-LEV (5)                     |   3.2K | -      |    801 | 
-||ASTD (3)                            |  24.7K | -      |    664 | 
-||ASTD-B(2)                           |   1.06K | --     |    267 | 
-||AWATIF(4)                           |   2.28K |    288 |    284 | 
-||BBN(3)                              |     960 |    125 |    116 | 
-||HARD (2)                            |  84.5K | -      | 21.1K | 
-||LABR (2)                            |  13.1K |        |  3.28K | 
-||SAMAR(5)                            |   2.49K |    310 |    316 | 
-||SemEval (3)                         |  24.7K | -      |  6.10K | 
-||SYTS(3)                             |     960 |    202 |    199 | 
-||Twitter<sub>Saad</sub> (2) |   1.5K |    202 |    190 | |
-||Twitter<sub>Abdullah</sub> (2)     |  46k |  5.77k |  5.82k | 
+|AJGT (2)      |   1.4K | -      |    361 |  |
+|AraNET<sub>Sent</sub> (2)      | 100K | 14.3K | 11.8K | |
+|AraSenTi (3)          |  11.1K |  1.40K|  1.38K | |
+|ArSarcasm<sub>Sent</sub> (3)   |   8.4K | -      |  2.K | |
+|ArSAS (3)                           |  24.7K | -      |  3.6K | |
+|ArsenTD-LEV (5)                     |   3.2K | -      |    801 | |
+|ASTD (3)                            |  24.7K | -      |    664 | |
+|ASTD-B(2)                           |   1.06K | --     |    267 | |
+|AWATIF(4)                           |   2.28K |    288 |    284 | |
+|BBN(3)                              |     960 |    125 |    116 | |
+|HARD (2)                            |  84.5K | -      | 21.1K | |
+|LABR (2)                            |  13.1K |        |  3.28K | |
+|SAMAR(5)                            |   2.49K |    310 |    316 | |
+|SemEval (3)                         |  24.7K | -      |  6.10K | |
+|SYTS(3)                             |     960 |    202 |    199 | |
+|Twitter<sub>Saad</sub> (2) |   1.5K |    202 |    190 | |
+|Twitter<sub>Abdullah</sub> (2)     |  46k |  5.77k |  5.82k | |
 ---
+
 ### 2.2 Social Meaning
 
-|**Reference**| **Data  (#classes)**                    | **TRAIN**   | **DEV**    | **TEST**   | 
-|-------------------------------------|---------|--------|--------|-------|
-|| Arab_Tweet - Age (3)     | 1.28M | 160K | 160K | 
-|| Arab_Tweet - Gender (2)   | 1.28M | 160K | 160K |
-|| AraNET<sub>Emo</sub> - Emotion (8)   |  189K |    911 |    942 | 
-|| AraSarcasm  - Sarcasm (2)   |   8.4K | -      |  2.1K | 
-|| Dangerous(2)  |    3.4K |    616 |    664 | 
-|| FIRE2019 - Irony (2)    |    3.6K | -      |    404 | 
-|| OSACT-A - Offensive (2)  |   10K |   1K |   2K | 
-|| OSACT-B - Hate Speech(2) |   10K |   1K |   2K | 
----
+| **Data  (#classes)**                    | **TRAIN**   | **DEV**    | **TEST**   |
+|-------------------------------------|---------|--------|--------|
+| Twitter<sub>Abdullah</sub> (2)     |  46,999 |  5,779 |  5,824 |
+| Arab_Tweet - Age (3)     | 1285796 | 160725 | 160726 |
+| Arab_Tweet - Gender (2)   | 1285796 | 160725 | 160726 |
+| AraNET<sub>Emo</sub> - Emotion (8)   |  189903 |    911 |    942 |
+| AraSarcasm  - Sarcasm (2)   |   8,438 | -      |  2,111 |
+| Dangerous(2)  |    3475 |    616 |    664 |
+| FIRE2019 - Irony (2)    |    3622 | -      |    404 |
+| OSACT-A - Offensive (2)  |   10000 |   1000 |   2000 |
+| OSACT-B - Hate Speech(2) |   10000 |   1000 |   2000 |
 
 ---
 
@@ -137,7 +140,7 @@ To  evaluate  our  models, we  also introduce  **ArBench**,   a new benchmark fo
 ---
 
 ## 3 Model Evaluation
-When fine-tuned on ArBench,  ARBERT and MARBERT collectively achieve new SOTA  with sizeable margins compared to all existing models such as mBERT, XLM-R (Base and Large), and  AraBERT on 37 out of 45 classification tasks on the 41 datasets (82.22%). 
+When fine-tuned on ArBench,  ARBERT and MARBERT collectively achieve new SOTA  with sizeable margins compared to all existing models such as mBERT, XLM-R (Base and Large), and  AraBERT on 37 out of 45 classification tasks on the 41 datasets (82.22%). We present our results on the different TEST sets in the subsections below. For performance on DEV sets, please see appendixes in our [paper](https://mageed.arts.ubc.ca/files/2020/12/marbert_arxiv_2020.pdf). 
 
 ### 3.1 Sentiment Analysis
 
