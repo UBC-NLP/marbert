@@ -30,7 +30,7 @@ The rest of this repository provides more information about our new language mod
   - [3.3 Topic Classification](#33-topic-classification)
   - [3.4 Dialect Identification](#34-Dialect-Identification)
   - [3.5 Named Entity Recogntion (NER)](#35-named-entity-recogntion)
-- [4. 4. How to use ARBERT and MARBERT](#4-how-to-use-arbert-and-marbert)
+- [4. Fine-tuning ARBERT and MARBERT](#4-fine-tuning-arbert-and-marbert)
 - [5. Ethics](#5-ethics)
 - [6. Download ARBERT and MARBERT](#6-download-arbert-and-marbert)
 - [7. Citation](#7-citation)
@@ -66,23 +66,23 @@ To  evaluate  our  models, we  also introduce  **ArBench**,   a new benchmark fo
 
 |**Reference**| **Data  (#classes)**     | **TRAIN**   | **DEV**    | **TEST**   |
 |---------|--------|--------|-------|------|
-|Alomari et al. (2017)|AJGT (2)      |   1.4K | -      |    361 | 
-|Abdul-Mageed et al. (2020b) |AraNET<sub>Sent</sub> (2)      | 100K | 14.3K | 11.8K |
-|Al-Twairesh et al. (2017)|AraSenTi (3)          |  11,117 |  1,407 |  1,382 | 
-|Al-Twairesh et al. (2017)|ArSarcasm<sub>Sent</sub> (3)   |   8.4K | -      |  2.K | 
-|Elmadany et al. (2018)|ArSAS (3)                           |  24.7K | -      |  3.6K | 
-|Baly et al. (2019)|ArsenTD-LEV (5)                     |   3.2K | -      |    801 | 
+|[Alomari et al. (2017)](https://www.researchgate.net/publication/317501447_Arabic_Tweets_Sentimental_Analysis_Using_Machine_Learning)|AJGT (2)      |   1.4K | -      |    361 | 
+|[Abdul-Mageed et al. (2020b)](https://www.aclweb.org/anthology/2020.osact-1.3) |AraNET<sub>Sent</sub> (2)      | 100K | 14.3K | 11.8K |
+|[Al-Twairesh et al. (2017)](https://www.aclweb.org/anthology/P16-1066)|AraSenTi (3)          |  11,117 |  1,407 |  1,382 | 
+|[Abu Farha and Magdy (2017)](https://www.aclweb.org/anthology/2020.osact-1.5)|ArSarcasm<sub>Sent</sub> (3)   |   8.4K | -      |  2.K | 
+|[Elmadany et al. (2018)](https://www.semanticscholar.org/paper/ArSAS-%3A-An-Arabic-Speech-Act-and-Sentiment-Corpus-Elmadany-Mubarak/d32d3bb226f1738f72c415c6b03b5ad66ff604a4)|ArSAS (3)                           |  24.7K | -      |  3.6K | 
+|[Baly et al. (2019)](https://arxiv.org/abs/1906.01830)|ArsenTD-LEV (5)                     |   3.2K | -      |    801 | 
 |[Nabil et al. (2015)](https://www.aclweb.org/anthology/D15-1299)|ASTD (3)                            |  24.7K | -      |    664 | 
 |[Nabil et al. (2015)](https://www.aclweb.org/anthology/D15-1299)|ASTD-B(2)                           |   1.06K | --     |    267 | 
-|[AbdulMageed and Diab, (2012)](https://www.aclweb.org/anthology/L12-1630/)|AWATIF(4)                           |   2.28K |    288 |    284 | 
+|[AbdulMageed and Diab (2012)](https://www.aclweb.org/anthology/L12-1630/)|AWATIF(4)                           |   2.28K |    288 |    284 | 
 |[Salameh et al. (2015)](https://www.aclweb.org/anthology/N15-1078)|BBN(3)                              |     960 |    125 |    116 | 
 |[Aly and Atiya (2013) ](https://www.springerprofessional.de/en/hotel-arabic-reviews-dataset-construction-for-sentiment-analysis/15234334)|HARD (2)                            |  84.5K | -      | 21.1K | 
 |[Nabil et al. (2015)](http://www.aclweb.org/anthology/P/P13/P13-2088.pdf)|LABR (2)                            |  13.1K |        |  3.28K | 
-|[AbdulMageed and Diab, (2014)](https://cl.indiana.edu/~skuebler/papers/wassa12.pdf)|SAMAR(5)                            |   2.49K |    310 |    316 | 
-||SemEval (3)                         |  24.7K | -      |  6.10K | 
-||SYTS(3)                             |     960 |    202 |    199 | 
-||Twitter<sub>Saad</sub> (2) |   1.5K |    202 |    190 | |
-||Twitter<sub>Abdullah</sub> (2)     |  46k |  5.77k |  5.82k | 
+|[AbdulMageed and Diab (2014)](https://cl.indiana.edu/~skuebler/papers/wassa12.pdf)|SAMAR(5)                            |   2.49K |    310 |    316 | 
+|[Rosenthal  et al. (2017)] (https://www.aclweb.org/anthology/S17-2088.pdf)|SemEval (3)                         |  24.7K | -      |  6.10K | 
+|[Salameh et al. (2015)](https://www.aclweb.org/anthology/N15-1078)|SYTS(3)                             |     960 |    202 |    199 | 
+|[Saad (2019)] (www.kaggle.com/mksaad/arabic-sentiment-twittercorpus)|Twitter<sub>Saad</sub> (2) |   1.5K |    202 |    190 | |
+|[Abdullah et al. (2013)]https://www.researchgate.net/publication/261427893_Arabic_sentiment_analysis_Lexicon-based_and_corpus-based)|Twitter<sub>Abdullah</sub> (2)     |  46k |  5.77k |  5.82k | 
 
 ### 2.2 Social Meaning
 
@@ -215,19 +215,10 @@ When fine-tuned on ArBench,  ARBERT and MARBERT collectively achieve new SOTA  w
 
 ---
 
-## 4. How to use ARBERT and MARBERT
-
-You can use our models by installing torch or tensorflow and Huggingface library transformers. And you can use it directly by initializing it like this:
+## 4. Fine-tuning ARBERT and MARBERT
  
  ```python
-    from transformers import AutoTokenizer, AutoModel
-    #load AEBERT model from huggingface
-    ARBERT_tokenizer = AutoTokenizer.from_pretrained("UBC-NLP/ARBERT")
-    ARBERT_model = AutoModel.from_pretrained("UBC-NLP/ARBERT")
-
-    #load MAEBERT model from huggingface
-    MARBERT_tokenizer = AutoTokenizer.from_pretrained("UBC-NLP/MARBERT")
-    MARBERT_model = AutoModel.from_pretrained("UBC-NLP/MARBERT")
+    import 
  ```
 
 ---
