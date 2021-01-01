@@ -79,10 +79,10 @@ To  evaluate  our  models, we  also introduce  **ArBench**,   a new benchmark fo
 |[Aly and Atiya (2013) ](https://www.springerprofessional.de/en/hotel-arabic-reviews-dataset-construction-for-sentiment-analysis/15234334)|HARD (2)                            |  84.5K | -      | 21.1K | 
 |[Nabil et al. (2015)](http://www.aclweb.org/anthology/P/P13/P13-2088.pdf)|LABR (2)                            |  13.1K |        |  3.28K | 
 |[AbdulMageed and Diab (2014)](https://cl.indiana.edu/~skuebler/papers/wassa12.pdf)|SAMAR(5)                            |   2.49K |    310 |    316 | 
-|[Rosenthal  et al. (2017)] (https://www.aclweb.org/anthology/S17-2088.pdf)|SemEval (3)                         |  24.7K | -      |  6.10K | 
+|[Rosenthal  et al. (2017)](https://www.aclweb.org/anthology/S17-2088.pdf)|SemEval (3)                         |  24.7K | -      |  6.10K | 
 |[Salameh et al. (2015)](https://www.aclweb.org/anthology/N15-1078)|SYTS(3)                             |     960 |    202 |    199 | 
-|[Saad (2019)] (www.kaggle.com/mksaad/arabic-sentiment-twittercorpus)|Twitter<sub>Saad</sub> (2) |   1.5K |    202 |    190 | |
-|[Abdullah et al. (2013)]https://www.researchgate.net/publication/261427893_Arabic_sentiment_analysis_Lexicon-based_and_corpus-based)|Twitter<sub>Abdullah</sub> (2)     |  46k |  5.77k |  5.82k | 
+|[Saad (2019)](www.kaggle.com/mksaad/arabic-sentiment-twittercorpus)|Twitter<sub>Saad</sub> (2) |   1.5K |    202 |    190 | |
+|[Abdullah et al. (2013)](https://www.researchgate.net/publication/261427893_Arabic_sentiment_analysis_Lexicon-based_and_corpus-based)|Twitter<sub>Abdullah</sub> (2)     |  46k |  5.77k |  5.82k | 
 
 ### 2.2 Social Meaning
 
