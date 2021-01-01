@@ -22,8 +22,8 @@ The rest of this repository provides more information about our new language mod
   - [2.1 Sentiment Analysis](#21-sentiment-analysis)
   - [2.2 Social Meaning](#22-social-meaning)
   - [2.3 Topic Classification](#23-topic-classification)
-  - [2.4 Dialect Identification](#34-dialect-identification)
-  - [3.5 Named Entity Recogntion (NER)](#35-named-entity-recogntion)
+  - [2.4 Dialect Identification](#24-dialect-identification)
+  - [2.5 Named Entity Recogntion (NER)](#25-named-entity-recogntion)
 - [3. Models Evaluation](#3-models-evaluation)
   - [3.1 Sentiment Analysis](#31-sentiment-analysis)
   - [3.2 Social Meaning](#32-social-meaning)
@@ -84,6 +84,8 @@ To  evaluate  our  models,   we  propose  **ArBench**,   a new benchmark for mul
 
 ---
 
+### 2.2 Social Meaning
+
 |                    | **Data  (#classes)**                    | **TRAIN**   | **DEV**    | **TEST**   |
 |                   | Twitter<sub>Abdullah</sub> (2)     |  46,999 |  5,779 |  5,824 |
 |                  | Arab_Tweet - Age (3)     | 1285796 | 160725 | 160726 |
@@ -94,13 +96,20 @@ To  evaluate  our  models,   we  propose  **ArBench**,   a new benchmark for mul
 |                   | FIRE2019 - Irony (2)    |    3622 | -      |    404 |
 |                   | OSACT-A - Offensive (2)  |   10000 |   1000 |   2000 |
 |                   | OSACT-B - Hate Speech(2) |   10000 |   1000 |   2000 |
+
 ---
+
+### 2.3 Topic Classification
 
 |                    | **Data  (#classes)**                    | **TRAIN**   | **DEV**    | **TEST**   |
 |**Topic Classification**|  OSAC (10)  | 17944 | 2244 | 2244 | 
 |                   | Khallej (4) |  4553 |  570 |  570 | 
 |                   |  ANT(5)  | 25219 | 3154 | 3153 |  
+
 ---
+
+### 2.4 Dialect Identification
+
 |                    | **Data  (#classes)**                    | **TRAIN**   | **DEV**    | **TEST**   |
 |**Dialect Identification**|              AOC (2)              |      Binary     |  86,541 | 10,809 | 10,807 |
 |                   |              AOC (3)              |      Region     |  35,679 |  4,464 |  4,455 |
@@ -111,7 +120,11 @@ To  evaluate  our  models,   we  propose  **ArBench**,   a new benchmark for mul
 |                   |             NADI (100)             |     Province     |  2,100  |  4,957 |  5,000 |
 |                   |             QADI (18)             |     Country     | 497,816 |   --   |  3,504 |
 
+
 ---
+
+### 2.5 Named Entity Recogntion
+
 |**Data Type**| **Dataset**| **#Tokens** | **#PER**  | **#LOC**  | **#ORG**  |
 |-------------|------------|-------------|-----------|------------|----------|
 |Named Entity Recogntion| ANERCorp   | 150K    | 6,504 | 5,018 | 3,437 |
