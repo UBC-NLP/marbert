@@ -215,10 +215,19 @@ When fine-tuned on ArBench,  ARBERT and MARBERT collectively achieve new SOTA  w
 
 ---
 
-## 4. Fine-tuning ARBERT and MARBERT
+## 4. How to use ARBERT and MARBERT
+
+You can use our models by installing torch or tensorflow and Huggingface library transformers. And you can use it directly by initializing it like this:
  
  ```python
-    import 
+    from transformers import AutoTokenizer, AutoModel
+    #load AEBERT model from huggingface
+    ARBERT_tokenizer = AutoTokenizer.from_pretrained("UBC-NLP/ARBERT")
+    ARBERT_model = AutoModel.from_pretrained("UBC-NLP/ARBERT")
+
+    #load MAEBERT model from huggingface
+    MARBERT_tokenizer = AutoTokenizer.from_pretrained("UBC-NLP/MARBERT")
+    MARBERT_model = AutoModel.from_pretrained("UBC-NLP/MARBERT")
  ```
 
 ---
