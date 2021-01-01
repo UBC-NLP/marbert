@@ -109,7 +109,7 @@ To  evaluate  our  models,   we  propose  **ArBench**,   a new benchmark for mul
 
 ### 2.3 Topic Classification
 
-|                    | **Data  (#classes)**                    | **TRAIN**   | **DEV**    | **TEST**   |
+| **Data  (#classes)**                    | **TRAIN**   | **DEV**    | **TEST**   |
 |-------------------------------------|---------|--------|--------|
 |**Topic Classification**|  OSAC (10)  | 17944 | 2244 | 2244 | 
 |                   | Khallej (4) |  4553 |  570 |  570 | 
@@ -136,7 +136,7 @@ To  evaluate  our  models,   we  propose  **ArBench**,   a new benchmark for mul
 ### 2.5 Named Entity Recogntion
 
 | **Dataset**| **#Tokens** | **#PER**  | **#LOC**  | **#ORG**  |
-|-------------|------------|-------------|-----------|------------|----------|
+|------------|-------------|-----------|------------|----------|
 | ANERCorp   | 150K    | 6,504 | 5,018 | 3,437 |
 | ACE-2003BN | 15K     | 832   | 1,223 | 288   |
 | ACE-2003NW | 27K     | 1,146 | 1,147 | 893   |
