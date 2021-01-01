@@ -258,10 +258,10 @@ You should be careful about using Twitter data to derive or infer potentially se
 ---
 
 ## 6. Download ARBERT and MARBERT
-ARBERT and MARBERT are available for direct download and use ```exclusively for research```.
+ARBERT and MARBERT are available for direct download from Huggingface and use ```exclusively for research```.
 `For commercial use, please contact the authors via email @ (*muhammad.mageed[at]ubc[dot]ca*).`
-- MARBERT can be downloaded [here]().
-- MARBERT can be downloaded [here]().
+- ARBERT can be downloaded [here](https://huggingface.co/UBC-NLP/ARBERT).
+- MARBERT can be downloaded [here](https://huggingface.co/UBC-NLP/MARBERT).
 
 ---
 
