@@ -15,7 +15,7 @@ The rest of this repository provides more information about our new language mod
 ---
 
 ## Table of Contents
-- [1. Our Language Models](#1-Our-Language-Models)
+- [1 Our Language Models](#1-Our-Language-Models)
   - [1.1 ARBERT & MARBERT](#11-arbert--marbert)
   - [1.2 Training Data and Vocabulary](#12-training-data-and-vocabulary)
 - [2. Our Benchmark: ArBench](#2-our-benchmark-arbench)
@@ -72,13 +72,13 @@ To  evaluate  our  models, we  also introduce  **ArBench**,   a new benchmark fo
 |Al-Twairesh et al. (2017)|ArSarcasm<sub>Sent</sub> (3)   |   8.4K | -      |  2.K | 
 |Elmadany et al. (2018)|ArSAS (3)                           |  24.7K | -      |  3.6K | 
 |Baly et al. (2019)|ArsenTD-LEV (5)                     |   3.2K | -      |    801 | 
-|Nabil et al. (2015)|ASTD (3)                            |  24.7K | -      |    664 | 
-||ASTD-B(2)                           |   1.06K | --     |    267 | 
-||AWATIF(4)                           |   2.28K |    288 |    284 | 
-||BBN(3)                              |     960 |    125 |    116 | 
-||HARD (2)                            |  84.5K | -      | 21.1K | 
-||LABR (2)                            |  13.1K |        |  3.28K | 
-||SAMAR(5)                            |   2.49K |    310 |    316 | 
+|[Nabil et al. (2015)](https://www.aclweb.org/anthology/D15-1299)|ASTD (3)                            |  24.7K | -      |    664 | 
+|[Nabil et al. (2015)](https://www.aclweb.org/anthology/D15-1299)|ASTD-B(2)                           |   1.06K | --     |    267 | 
+|[AbdulMageed and Diab, (2012)](https://www.aclweb.org/anthology/L12-1630/)|AWATIF(4)                           |   2.28K |    288 |    284 | 
+|[Salameh et al. (2015)](https://www.aclweb.org/anthology/N15-1078)|BBN(3)                              |     960 |    125 |    116 | 
+|[Aly and Atiya (2013) ](https://www.springerprofessional.de/en/hotel-arabic-reviews-dataset-construction-for-sentiment-analysis/15234334)|HARD (2)                            |  84.5K | -      | 21.1K | 
+|[Nabil et al. (2015)](http://www.aclweb.org/anthology/P/P13/P13-2088.pdf)|LABR (2)                            |  13.1K |        |  3.28K | 
+|[AbdulMageed and Diab, (2014)](https://cl.indiana.edu/~skuebler/papers/wassa12.pdf)|SAMAR(5)                            |   2.49K |    310 |    316 | 
 ||SemEval (3)                         |  24.7K | -      |  6.10K | 
 ||SYTS(3)                             |     960 |    202 |    199 | 
 ||Twitter<sub>Saad</sub> (2) |   1.5K |    202 |    190 | |
