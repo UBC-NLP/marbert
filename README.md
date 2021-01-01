@@ -95,7 +95,6 @@ To  evaluate  our  models,   we  propose  **ArBench**,   a new benchmark for mul
 | Arab_Tweet - Gender (2)   | 1285796 | 160725 | 160726 |
 | AraNET<sub>Emo</sub> - Emotion (8)   |  189903 |    911 |    942 |
 | AraSarcasm  - Sarcasm (2)   |   8,438 | -      |  2,111 |
-|-------------------------------------|---------|--------|--------|
 | Dangerous(2)  |    3475 |    616 |    664 |
 | FIRE2019 - Irony (2)    |    3622 | -      |    404 |
 | OSACT-A - Offensive (2)  |   10000 |   1000 |   2000 |
