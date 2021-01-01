@@ -33,7 +33,8 @@ The rest of this repository provides more information about our new language mod
 - [4. Fine-tuning ARBERT and MARBERT](#-4-fine-tuning-arbert-and-marbert)
 - [5. Ethics](#-5-ethics)
 - [6. Download ARBERT and MARBERT](#-6-download-arbert-and-marbert)
-- [7. Acknowledgments](##-7-acknowledgments)
+- [7. Citation](##-7-citation)
+- [8. Acknowledgments](##-8-acknowledgments)
 ---
 
 ## 1. Our Language Models
@@ -218,17 +219,6 @@ When fine-tuned on ArBench,  ARBERT and MARBERT collectively achieve new SOTA  w
  ```python
     import 
  ```
- 
-## Citation
-If you use our models (ARBERT or MARBERT) for your scientific publication, or if you find the resources in this repository useful, please cite one of the following paper:
-```
-@article{mageed2020marbert,
-  title={ARBERT & MARBERT: Deep Bidirectional Transformers for Arabic},
-  author={Abdul-Mageed, Muhammad and Elmadany, AbdelRahim, and Nagoudi, El Moatez Billah},
-  journal={arXiv preprint},
-  year={2020}
-}
-```
 
 ---
 
@@ -263,6 +253,20 @@ ARBERT and MARBERT are available for direct download and use ```exclusively for 
 - MARBERT can be downloaded [here]().
 - MARBERT can be downloaded [here]().
 
+---
 
-## 7. Acknowledgments
+## 7. Citation
+If you use our models (ARBERT or MARBERT) for your scientific publication, or if you find the resources in this repository useful, please cite one of the following paper:
+```
+@article{mageed2020marbert,
+  title={ARBERT & MARBERT: Deep Bidirectional Transformers for Arabic},
+  author={Abdul-Mageed, Muhammad and Elmadany, AbdelRahim, and Nagoudi, El Moatez Billah},
+  journal={arXiv preprint},
+  year={2020}
+}
+```
+
+---
+
+## 8. Acknowledgments
 We gratefully acknowledge support from the Natural Sciences and Engineering Research Council  of Canada, the  Social  Sciences and  Humanities  Research  Council  of  Canada, Canadian  Foundation  for  Innovation,  [ComputeCanada](www.computecanada.ca) and [UBC ARC-Sockeye](https://doi.org/10.14288/SOCKEYE). We  also  thank  the  [Google TensorFlow Research Cloud (TFRC)](https://www.tensorflow.org/tfrc) program for providing us with free TPU access.
