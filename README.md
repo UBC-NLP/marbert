@@ -64,25 +64,25 @@ To  evaluate  our  models, we  also introduce  **ArBench**,   a new benchmark fo
 ### 2.1 Sentiment Analysis
 
 
-| **Data  (#classes)**                    | **TRAIN**   | **DEV**    | **TEST**   |
-|-------------------------------------|---------|--------|--------|
-| AJGT (2)                            |   1,441 | -      |    361 |
-| AraNET<sub>Sent</sub> (2)      | 100,592 | 14,331 | 11,819 |
-| AraSenTi (3)          |  11,117 |  1,407 |  1,382 |
-| ArSarcasm<sub>Sent</sub> (3)   |   8,438 | -      |  2,111 |
-| ArSAS (3)                           |  24,773 | -      |  3,692 |
-| ArsenTD-LEV (5)                     |   3,201 | -      |    801 |
-| ASTD (3)                            |  24,773 | -      |    664 |
-| ASTD-B(2)                           |   1,065 | --     |    267 |
-| AWATIF(4)                           |   2,284 |    288 |    284 |
-| BBN(3)                              |     960 |    125 |    116 |
-| HARD (2)                            |  84,517 | -      | 21,130 |
-| LABR (2)                            |  13,161 |        |  3,288 |
-| SAMAR(5)                            |   2,491 |    310 |    316 |
-| SemEval (3)                         |  24,773 | -      |  6,101 |
-| SYTS(3)                             |     960 |    202 |    199 |
-| Twitter<sub>Saad</sub> (2) |   1,569 |    202 |    190 |
-
+| **Data  (#classes)**     | **TRAIN**   | **DEV**    | **TEST**   | **Reference**|
+|---------|--------|--------|-------|------|
+|AJGT (2)      |   1.4K | -      |    361 |  |
+|AraNET<sub>Sent</sub> (2)      | 100K | 14.3K | 11.8K | |
+|AraSenTi (3)          |  11.1K |  1.40K|  1.38K | |
+|ArSarcasm<sub>Sent</sub> (3)   |   8.4K | -      |  2.K | |
+|ArSAS (3)                           |  24.7K | -      |  3.6K | |
+|ArsenTD-LEV (5)                     |   3.2K | -      |    801 | |
+|ASTD (3)                            |  24.7K | -      |    664 | |
+|ASTD-B(2)                           |   1.06K | --     |    267 | |
+|AWATIF(4)                           |   2.28K |    288 |    284 | |
+|BBN(3)                              |     960 |    125 |    116 | |
+|HARD (2)                            |  84.5K | -      | 21.1K | |
+|LABR (2)                            |  13.1K |        |  3.28K | |
+|SAMAR(5)                            |   2.49K |    310 |    316 | |
+|SemEval (3)                         |  24.7K | -      |  6.10K | |
+|SYTS(3)                             |     960 |    202 |    199 | |
+|Twitter<sub>Saad</sub> (2) |   1.5K |    202 |    190 | |
+|Twitter<sub>Abdullah</sub> (2)     |  46k |  5.77k |  5.82k | |
 ---
 
 ### 2.2 Social Meaning
@@ -140,7 +140,7 @@ To  evaluate  our  models, we  also introduce  **ArBench**,   a new benchmark fo
 ---
 
 ## 3 Model Evaluation
-When fine-tune our models on ArBench.  ARBERT and MARBERT collectively achieve new SOTA  with sizeable margins compared to all existing models such as mBERT, XLM-R (Base and Large), and  AraBERT on 37 out of 45 classification tasks on the 41 datasets (82.22%). We present our results in the following subsections:
+When fine-tuned on ArBench,  ARBERT and MARBERT collectively achieve new SOTA  with sizeable margins compared to all existing models such as mBERT, XLM-R (Base and Large), and  AraBERT on 37 out of 45 classification tasks on the 41 datasets (82.22%). 
 
 ### 3.1 Sentiment Analysis
 
@@ -228,7 +228,7 @@ When fine-tune our models on ArBench.  ARBERT and MARBERT collectively achieve n
  ```
  
 ## Citation
-If you use either or both of our models (ARBERT or MARBERT) or benhcmark (ArBench), for your scientific publication, or if you find the resources in this repository useful, please cite one of the following paper:
+If you use our models (ARBERT or MARBERT) for your scientific publication, or if you find the resources in this repository useful, please cite one of the following paper:
 ```
 @article{mageed2020marbert,
   title={ARBERT & MARBERT: Deep Bidirectional Transformers for Arabic},
