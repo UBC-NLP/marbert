@@ -8,7 +8,7 @@ In this paper, we:
 * introduce ```ArBench```, a multi-domain, multi-variety benchmark for Arabic naturaal language understanding based on 41 datasets across 5 different tasks and task clusters;
 * evaluate ARBERT and MARBERT on ArBench and compare against available language models.
 
-Our models establish new state-of-the-art (SOTA) on all 5 tasks/task clusters on 37 out of the 41 datasets.
+Our new models establish new state-of-the-art (SOTA) on all 5 tasks/task clusters on 37 out of the 41 datasets.
 Our language models are publicaly available for research (see below).
 The rest of this repository provides more information about our new language models, benchmark, and experiments.
 
@@ -31,15 +31,13 @@ The rest of this repository provides more information about our new language mod
   - [3.4 Dialect Identification](#34-Dialect-Identification)
   - [3.5 Named Entity Recogntion (NER)](#35-named-entity-recogntion)
 - [4. Fine-tuning ARBERT and MARBERT](#-4-fine-tuning-arbert-and-marbert)
-- [5. Ethics](#-5-ethics)
-- [6. Download ARBERT and MARBERT](#-6-download-arbert-and-marbert)
-- [7. Acknowledgments](##-7-acknowledgments)
+- [5. Acknowledgments](##-5-acknowledgments)
 ---
 
 ## 1. Our Language Models
 
 ## 1.1 ARBERT & MARBERT
-**ARBERT** is a large scale pre-training masked language model focused on Modern Standard Arabic (MSA). To train ARBERT, we use the same architecture as BERT-base: 12 attention layers, each has 12 attention heads and 768 hidden dimensions, a vocabulary of 100K WordPieces, making ∼163M parameters. We  train  ARBERT on a collection of Arabic datasets comprising 61GB of text (6.2B tokens)
+**ARBERT** is a large scale pre-training masked language model focused on Modern Standard Arabic(MSA). To train ARBERT, we use the same architecture as BERT-base: 12 attention layers, each has 12 attention heads and 768 hidden dimensions, avocabulary of 100K WordPieces, making ∼163M parameters. We  train  ARBERT on a collection of Arabic datasets comprising 61GB of text (6.2 B tokens)
 
 **MARBERT** is a large scale pre-training masked language model focused on Dialectal Arabic (DA) and Modern Standard Arabic(MSA). Arabic has multiple varieties. To train MARBERT, we randomly sample 1B Arabic tweets from a large in-house dataset of about 6B tweets. We only include tweets with at least 3 Arabic words, based on character string matching, regardless whether the tweet has non-Arabic stringor not.  That is, we do not remove non-Arabic solong as the tweet meets the 3 Arabic word criterion. The dataset makes up 128GB of text (15.6B tokens). We use the same network architecture as ARBERT (BERT-base), but without the next sentenceprediction (NSP) objective since tweets are short. NSP were also shown not to be crucial for model performance. 
 
@@ -65,80 +63,28 @@ To  evaluate  our  models,   we  propose  **ArBench**,   a new benchmark for mul
 ### 2.1 Sentiment Analysis
 
 
-| **Data  (#classes)**                    | **TRAIN**   | **DEV**    | **TEST**   |
-|-------------------------------------|---------|--------|--------|
-| AJGT (2)                            |   1,441 | -      |    361 |
-| AraNET<sub>Sent</sub> (2)      | 100,592 | 14,331 | 11,819 |
-| AraSenTi (3)          |  11,117 |  1,407 |  1,382 |
-| ArSarcasm<sub>Sent</sub> (3)   |   8,438 | -      |  2,111 |
-| ArSAS (3)                           |  24,773 | -      |  3,692 |
-| ArsenTD-LEV (5)                     |   3,201 | -      |    801 |
-| ASTD (3)                            |  24,773 | -      |    664 |
-| ASTD-B(2)                           |   1,065 | --     |    267 |
-| AWATIF(4)                           |   2,284 |    288 |    284 |
-| BBN(3)                              |     960 |    125 |    116 |
-| HARD (2)                            |  84,517 | -      | 21,130 |
-| LABR (2)                            |  13,161 |        |  3,288 |
-| SAMAR(5)                            |   2,491 |    310 |    316 |
-| SemEval (3)                         |  24,773 | -      |  6,101 |
-| SYTS(3)                             |     960 |    202 |    199 |
-| Twitter<sub>Saad</sub> (2) |   1,569 |    202 |    190 |
-
+|                    | **Data  (#classes)**                    | **TRAIN**   | **DEV**    | **TEST**   | **Reference**|
+|-------------------------------------|---------|--------|--------|-------|
+|                   | AJGT (2)                            |   1.4K | -      |    361 |  |
+|                   | AraNET<sub>Sent</sub> (2)      | 100K | 14.3K | 11.8K | |
+|                   | AraSenTi (3)          |  11,117 |  1,407 |  1,382 | |
+|                   | ArSarcasm<sub>Sent</sub> (3)   |   8.4K | -      |  2.K | |
+|                   | ArSAS (3)                           |  24.7K | -      |  3.6K | |
+|                   | ArsenTD-LEV (5)                     |   3.2K | -      |    801 | |
+|                   | ASTD (3)                            |  24.7K | -      |    664 | |
+|                   | ASTD-B(2)                           |   1.06K | --     |    267 | |
+|**Sentiment Analysis** | AWATIF(4)                           |   2.28K |    288 |    284 | |
+|                   | BBN(3)                              |     960 |    125 |    116 | |
+|                   | HARD (2)                            |  84.5K | -      | 21.1K | |
+|                   | LABR (2)                            |  13.1K |        |  3.28K | |
+|                   | SAMAR(5)                            |   2.49K |    310 |    316 | |
+|                   | SemEval (3)                         |  24.7K | -      |  6.10K | |
+|                   | SYTS(3)                             |     960 |    202 |    199 | |
+|                   | Twitter<sub>Saad</sub> (2) |   1.5K |    202 |    190 | |
+| Twitter<sub>Abdullah</sub> (2)     |  46k |  5.77k |  5.82k | |
 ---
 
-### 2.2 Social Meaning
 
-| **Data  (#classes)**                    | **TRAIN**   | **DEV**    | **TEST**   |
-|-------------------------------------|---------|--------|--------|
-| Twitter<sub>Abdullah</sub> (2)     |  46,999 |  5,779 |  5,824 |
-| Arab_Tweet - Age (3)     | 1285796 | 160725 | 160726 |
-| Arab_Tweet - Gender (2)   | 1285796 | 160725 | 160726 |
-| AraNET<sub>Emo</sub> - Emotion (8)   |  189903 |    911 |    942 |
-| AraSarcasm  - Sarcasm (2)   |   8,438 | -      |  2,111 |
-| Dangerous(2)  |    3475 |    616 |    664 |
-| FIRE2019 - Irony (2)    |    3622 | -      |    404 |
-| OSACT-A - Offensive (2)  |   10000 |   1000 |   2000 |
-| OSACT-B - Hate Speech(2) |   10000 |   1000 |   2000 |
-
----
-
-### 2.3 Topic Classification
-
-| **Data  (#classes)**                    | **TRAIN**   | **DEV**    | **TEST**   |
-|-------------------------------------|---------|--------|--------|
-|**Topic Classification**|  OSAC (10)  | 17944 | 2244 | 2244 | 
-|                   | Khallej (4) |  4553 |  570 |  570 | 
-|                   |  ANT(5)  | 25219 | 3154 | 3153 |  
-
----
-
-### 2.4 Dialect Identification
-
-| **Data  (#classes)**                    | **TRAIN**   | **DEV**    | **TEST**   |
-|-------------------------------------|---------|--------|--------|
-|              AOC (2)              |      Binary     |  86,541 | 10,809 | 10,807 |
-|              AOC (3)              |      Region     |  35,679 |  4,464 |  4,455 |
-|              AOC (4)              |      Region     |  86,489 | 10,814 | 10,803 |
-| ArSarcasm<sub>Dia</sub> (5) |      Regoin     |  8,438  |    -   |  2,111 |
-|           MADAR-TL (21)           |     Country     | 193,087 | 26,589 | 43,910 |
-|             NADI (21)             |     Country     |  2,100  |  4,957 |  5,000 |
-|             NADI (100)             |     Province     |  2,100  |  4,957 |  5,000 |
-|             QADI (18)             |     Country     | 497,816 |   --   |  3,504 |
-
-
----
-
-### 2.5 Named Entity Recogntion
-
-| **Dataset**| **#Tokens** | **#PER**  | **#LOC**  | **#ORG**  |
-|------------|-------------|-----------|------------|----------|
-| ANERCorp   | 150K    | 6,504 | 5,018 | 3,437 |
-| ACE-2003BN | 15K     | 832   | 1,223 | 288   |
-| ACE-2003NW | 27K     | 1,146 | 1,147 | 893   |
-| ACE-2004BN | 70K     | 3,201 | 3,921 | 2,239 |
-| TW-NER     | 81K     | 1,252 | 1,300 | 765   |
-
----
 
 ## 3 Model Evaluation
 When fine-tuned on ArBench,  ARBERT and MARBERT collectively achieve new SOTA  with sizeable margins compared to all existing models such as mBERT, XLM-R (Base and Large), and  AraBERT on 37 out of 45 classification tasks on the 41 datasets (82.22%). 
@@ -241,37 +187,5 @@ If you use our models (ARBERT or MARBERT) for your scientific publication, or if
 
 ---
 
-## 5. Ethics
-
-Our models are developed using data from the public domain. 
-We provide access to our models to accelerate scientific research with no liability on our part.
-Please use our models and benchmark only ethically.
-This includes, for example, respect and protection of people's privacy.
-We encourage all researchers who decide to use our models to adhere to the highest standards.
-For example, if you apply our models on Twitter data, we encourage you to review Twitter policy at [Twitter policy](https://developer.twitter.com/en/developer-terms/agreement-and-policy). For example, Twitter provides the following policy around use of [sensitive information](https://developer.twitter.com/en/developer-terms/more-on-restricted-use-cases): 
-
-### Sensitive information
-
-You should be careful about using Twitter data to derive or infer potentially sensitive characteristics about Twitter users. Never derive or infer, or store derived or inferred, information about a Twitter user’s:
-
-- Health (including pregnancy)
-- Negative financial status or condition
-- Political affiliation or beliefs
-- Racial or ethnic origin
-- Religious or philosophical affiliation or beliefs
-- Sex life or sexual orientation
-- Trade union membership
-- Alleged or actual commission of a crime
-- Aggregate analysis of Twitter content that does not store any personal data (for example, user IDs, usernames, and other identifiers) is permitted, provided that the analysis also complies with applicable laws and all parts of the Developer Agreement and Policy.
-
----
-
-## 6. Download ARBERT and MARBERT
-ARBERT and MARBERT are available for direct download and use ```exclusively for research```.
-`For commercial use, please contact the authors via email @ (*muhammad.mageed[at]ubc[dot]ca*).`
-- MARBERT can be downloaded [here]().
-- MARBERT can be downloaded [here]().
-
-
-## 7. Acknowledgments
+## 5. Acknowledgments
 We gratefully acknowledge support from the Natural Sciences and Engineering Research Council  of Canada, the  Social  Sciences and  Humanities  Research  Council  of  Canada, Canadian  Foundation  for  Innovation,  [ComputeCanada](www.computecanada.ca) and [UBC ARC-Sockeye](https://doi.org/10.14288/SOCKEYE). We  also  thank  the  [Google TensorFlow Research Cloud (TFRC)](https://www.tensorflow.org/tfrc) program for providing us with free TPU access.
