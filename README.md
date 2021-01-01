@@ -81,58 +81,6 @@ To  evaluate  our  models,   we  propose  **ArBench**,   a new benchmark for mul
 |                   | SemEval (3)                         |  24,773 | -      |  6,101 |
 |                   | SYTS(3)                             |     960 |    202 |    199 |
 |                   | Twitter<sub>Saad</sub> (2) |   1,569 |    202 |    190 |
-
----
-
-### 2.2 Social Meaning
-
-|                    | **Data  (#classes)**                    | **TRAIN**   | **DEV**    | **TEST**   |
-|                   | Twitter<sub>Abdullah</sub> (2)     |  46,999 |  5,779 |  5,824 |
-|                  | Arab_Tweet - Age (3)     | 1285796 | 160725 | 160726 |
-|                   | Arab_Tweet - Gender (2)   | 1285796 | 160725 | 160726 |
-|                   | AraNET<sub>Emo</sub> - Emotion (8)   |  189903 |    911 |    942 |
-|**Social Meaning**  | AraSarcasm  - Sarcasm (2)   |   8,438 | -      |  2,111 |
-|                   | Dangerous(2)  |    3475 |    616 |    664 |
-|                   | FIRE2019 - Irony (2)    |    3622 | -      |    404 |
-|                   | OSACT-A - Offensive (2)  |   10000 |   1000 |   2000 |
-|                   | OSACT-B - Hate Speech(2) |   10000 |   1000 |   2000 |
-
----
-
-### 2.3 Topic Classification
-
-|                    | **Data  (#classes)**                    | **TRAIN**   | **DEV**    | **TEST**   |
-|**Topic Classification**|  OSAC (10)  | 17944 | 2244 | 2244 | 
-|                   | Khallej (4) |  4553 |  570 |  570 | 
-|                   |  ANT(5)  | 25219 | 3154 | 3153 |  
-
----
-
-### 2.4 Dialect Identification
-
-|                    | **Data  (#classes)**                    | **TRAIN**   | **DEV**    | **TEST**   |
-|**Dialect Identification**|              AOC (2)              |      Binary     |  86,541 | 10,809 | 10,807 |
-|                   |              AOC (3)              |      Region     |  35,679 |  4,464 |  4,455 |
-|                   |              AOC (4)              |      Region     |  86,489 | 10,814 | 10,803 |
-|                   | ArSarcasm<sub>Dia</sub> (5) |      Regoin     |  8,438  |    -   |  2,111 |
-|                   |           MADAR-TL (21)           |     Country     | 193,087 | 26,589 | 43,910 |
-|                   |             NADI (21)             |     Country     |  2,100  |  4,957 |  5,000 |
-|                   |             NADI (100)             |     Province     |  2,100  |  4,957 |  5,000 |
-|                   |             QADI (18)             |     Country     | 497,816 |   --   |  3,504 |
-
-
----
-
-### 2.5 Named Entity Recogntion
-
-|**Data Type**| **Dataset**| **#Tokens** | **#PER**  | **#LOC**  | **#ORG**  |
-|-------------|------------|-------------|-----------|------------|----------|
-|Named Entity Recogntion| ANERCorp   | 150K    | 6,504 | 5,018 | 3,437 |
-|                   | ACE-2003BN | 15K     | 832   | 1,223 | 288   |
-|                   | ACE-2003NW | 27K     | 1,146 | 1,147 | 893   |
-|                   | ACE-2004BN | 70K     | 3,201 | 3,921 | 2,239 |
-|                   | TW-NER     | 81K     | 1,252 | 1,300 | 765   |
-
 ---
 
 ## 3 Model Evaluation
