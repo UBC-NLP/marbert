@@ -15,11 +15,11 @@ The rest of this repository provides more information about our new language mod
 ---
 
 ## Table of Contents
-- [1 Our Language Models](##-1-Our-Language-Models)
-- [1.1 ARBERT & MARBERT](##-11-ARBERT-MARBERT)
-- [1.2 Training Data and Vocabulary](#-12-Training-Data-and-Vovocabulary)
-- [2. Our Benchmark: ArBench](#-2-Our-Benchmark-ArBench)
-- [3. Models Evaluation](##-3-Models-Evaluation)
+- [1 Our Language Models](#1-Our-Language-Models)
+  - [1.1 ARBERT & MARBERT](#11-ARBERT-&-MARBERT)
+  - [1.2 Training Data and Vocabulary](#12-Training-Data-and-Vovocabulary)
+- [2. Our Benchmark: ArBench](#2-Our-Benchmark-ArBench)
+- [3. Models Evaluation](#3-Models-Evaluation)
   - [3.1 Sentiment Analysis](#31-Sentiment-Analysis)
   - [3.2 Social Meaning](#32-Social-Meaning)
   - [3.3 Topic Classification](#33-Topic-Classification)
