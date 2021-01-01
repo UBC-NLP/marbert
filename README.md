@@ -30,11 +30,11 @@ The rest of this repository provides more information about our new language mod
   - [3.3 Topic Classification](#33-topic-classification)
   - [3.4 Dialect Identification](#34-Dialect-Identification)
   - [3.5 Named Entity Recogntion (NER)](#35-named-entity-recogntion)
-- [4. Fine-tuning ARBERT and MARBERT](#-4-fine-tuning-arbert-and-marbert)
-- [5. Ethics](#-5-ethics)
+- [4. Fine-tuning ARBERT and MARBERT](#4-fine-tuning-arbert-and-marbert)
+- [5. Ethics](#5-ethics)
 - [6. Download ARBERT and MARBERT](#-6-download-arbert-and-marbert)
-- [7. Citation](##-7-citation)
-- [8. Acknowledgments](##-8-acknowledgments)
+- [7. Citation](#7-citation)
+- [8. Acknowledgments](#8-acknowledgments)
 ---
 
 ## 1. Our Language Models
