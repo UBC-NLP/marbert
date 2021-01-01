@@ -30,7 +30,7 @@ The rest of this repository provides more information about our new language mod
   - [3.3 Topic Classification](#33-topic-classification)
   - [3.4 Dialect Identification](#34-Dialect-Identification)
   - [3.5 Named Entity Recogntion (NER)](#35-named-entity-recogntion)
-- [4. How to use ARBERT and MARBERT](#4-how-to-use-arbert-and-marbert)
+- [4. Fine-tuning ARBERT and MARBERT](#4-fine-tuning-arbert-and-marbert)
 - [5. Ethics](#5-ethics)
 - [6. Download ARBERT and MARBERT](#6-download-arbert-and-marbert)
 - [7. Citation](#7-citation)
@@ -88,14 +88,14 @@ To  evaluate  our  models, we  also introduce  **ArBench**,   a new benchmark fo
 
 |**Reference**| **Data  (#classes)**                    | **TRAIN**   | **DEV**    | **TEST**   | 
 |-------------------------------------|---------|--------|--------|-------|
-|| Arab_Tweet - Age (3)     | 1.28M | 160K | 160K | 
-|| Arab_Tweet - Gender (2)   | 1.28M | 160K | 160K |
-|| AraNET<sub>Emo</sub> - Emotion (8)   |  189K |    911 |    942 | 
-|| AraSarcasm  - Sarcasm (2)   |   8.4K | -      |  2.1K | 
-|| Dangerous(2)  |    3.4K |    616 |    664 | 
-|| FIRE2019 - Irony (2)    |    3.6K | -      |    404 | 
-|| OSACT-A - Offensive (2)  |   10K |   1K |   2K | 
-|| OSACT-B - Hate Speech(2) |   10K |   1K |   2K | 
+|[Zaghouani and Charfi (2018)](https://arxiv.org/abs/1808.07674)| Arap-Tweet - Age (3)     | 1.28M | 160K | 160K | 
+|[Zaghouani and Charfi (2018)](https://arxiv.org/abs/1808.07674)| Arap-Tweet - Gender (2)   | 1.28M | 160K | 160K |
+|[Abdul-Mageed et al. (2020b)](https://www.aclweb.org/anthology/2020.osact-1.3)| AraNET<sub>Emo</sub> - Emotion (8)   |  189K |    911 |    942 | 
+|[Abu Farha and Magdy (2017)](https://www.aclweb.org/anthology/2020.osact-1.5)| AraSarcasm  - Sarcasm (2)   |   8.4K | -      |  2.1K | 
+|[Alshehri et al. (2020a)](https://www.aclweb.org/anthology/volumes/2020.osact-1/)| AraDang(2)  |    3.4K |    616 |    664 | 
+|[Ghanem et al., 2019](http://ceur-ws.org/Vol-2517/T4-1.pdf)| FIRE2019 - Irony (2)    |    3.6K | -      |    404 | 
+|[Mubarak et al. (2020)](https://www.aclweb.org/anthology/2020.osact-1.7)| OSACT-A - Offensive (2)  |   10K |   1K |   2K | 
+|[Mubarak et al. (2020)](https://www.aclweb.org/anthology/2020.osact-1.7)| OSACT-B - Hate Speech(2) |   10K |   1K |   2K | 
 
 
 ### 2.3 Topic Classification
@@ -146,7 +146,7 @@ When fine-tuned on ArBench,  ARBERT and MARBERT collectively achieve new SOTA  w
 | LABR (2)           | 91.20 |   91.23   |    92.20   |  91.97 | 92.51 |  **92.49** |
 | ASTD-B(2)          |  79.32 |   87.59   |    77.44   |  83.08 | 93.23 |  **96.24** |
 
-***Results reported based on Acc.***
+***Results reported based on Acc. score***
 
 | **Dataset (#classes)** |  **mBERT** | **XLM-R<sub>B</sub>** | **XLM-R<sub>L</sub>** | **AraBERT** | **ARBERT** | **MARBERT** |
 |--------------------|:------:|:----------:|:-----------:|:-------:|:------:|:-------:|
@@ -215,19 +215,10 @@ When fine-tuned on ArBench,  ARBERT and MARBERT collectively achieve new SOTA  w
 
 ---
 
-## 4. How to use ARBERT and MARBERT
-
-You can use ARBERT and MARBERT with [Hugging Face's Transformers](https://github.com/huggingface/transformers) library as follow.
+## 4. Fine-tuning ARBERT and MARBERT
  
  ```python
-    from transformers import AutoTokenizer, AutoModel
-    #load AEBERT model from huggingface
-    ARBERT_tokenizer = AutoTokenizer.from_pretrained("UBC-NLP/ARBERT")
-    ARBERT_model = AutoModel.from_pretrained("UBC-NLP/ARBERT")
-    
-    #load MAEBERT model from huggingface
-    MARBERT_tokenizer = AutoTokenizer.from_pretrained("UBC-NLP/MARBERT")
-    MARBERT_model = AutoModel.from_pretrained("UBC-NLP/MARBERT")
+    import 
  ```
 
 ---
@@ -258,10 +249,10 @@ You should be careful about using Twitter data to derive or infer potentially se
 ---
 
 ## 6. Download ARBERT and MARBERT
-ARBERT and MARBERT are available for direct download from Huggingface and use ```exclusively for research```.
+ARBERT and MARBERT are available for direct download and use ```exclusively for research```.
 `For commercial use, please contact the authors via email @ (*muhammad.mageed[at]ubc[dot]ca*).`
-- ARBERT can be downloaded [here](https://huggingface.co/UBC-NLP/ARBERT).
-- MARBERT can be downloaded [here](https://huggingface.co/UBC-NLP/MARBERT).
+- MARBERT can be downloaded [here]().
+- MARBERT can be downloaded [here]().
 
 ---
 
