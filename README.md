@@ -74,7 +74,7 @@ To  evaluate  our  models, we  also introduce  **ArBench**,   a new benchmark fo
 |[Baly et al. (2019)](https://arxiv.org/abs/1906.01830)|ArsenTD-LEV (5)                     |   3.2K | -      |    801 | 
 |[Nabil et al. (2015)](https://www.aclweb.org/anthology/D15-1299)|ASTD (3)                            |  24.7K | -      |    664 | 
 |[Nabil et al. (2015)](https://www.aclweb.org/anthology/D15-1299)|ASTD-B (2)                           |   1.06K | -     |    267 | 
-|[AbdulMageed and Diab (2012)](https://www.aclweb.org/anthology/L12-1630/)|AWATIF (4)                           |   2.28K |    288 |    284 | 
+|[Abdul-Mageed and Diab (2012)](https://www.aclweb.org/anthology/L12-1630/)|AWATIF (4)                           |   2.28K |    288 |    284 | 
 |[Salameh et al. (2015)](https://www.aclweb.org/anthology/N15-1078)|BBN (3)                              |     960 |    125 |    116 | 
 |[Ashraf et al. (2018) ](https://www.springerprofessional.de/en/hotel-arabic-reviews-dataset-construction-for-sentiment-analysis/15234334)|HARD (2)                            |  84.5K | -      | 21.1K | 
 |[Nabil et al. (2015)](http://www.aclweb.org/anthology/P/P13/P13-2088.pdf)|LABR (2)                            |  13.1K |        |  3.28K | 
@@ -93,7 +93,7 @@ To  evaluate  our  models, we  also introduce  **ArBench**,   a new benchmark fo
 |[Abdul-Mageed et al. (2020b)](https://www.aclweb.org/anthology/2020.osact-1.3)| AraNET<sub>Emo</sub> - Emotion (8)   |  189K |    911 |    942 | 
 |[Abu Farha and Magdy (2017)](https://www.aclweb.org/anthology/2020.osact-1.5)| AraSarcasm  - Sarcasm (2)   |   8.4K | -      |  2.1K | 
 |[Alshehri et al. (2020a)](https://www.aclweb.org/anthology/volumes/2020.osact-1/)| AraDang (2)  |    3.4K |    616 |    664 | 
-|[Ghanem et al., 2019](http://ceur-ws.org/Vol-2517/T4-1.pdf)| FIRE2019 - Irony (2)    |    3.6K | -      |    404 | 
+|[Ghanem et al. (2019)](http://ceur-ws.org/Vol-2517/T4-1.pdf)| FIRE2019 - Irony (2)    |    3.6K | -      |    404 | 
 |[Mubarak et al. (2020)](https://www.aclweb.org/anthology/2020.osact-1.7)| OSACT-A - Offensive (2)  |   10K |   1K |   2K | 
 |[Mubarak et al. (2020)](https://www.aclweb.org/anthology/2020.osact-1.7)| OSACT-B - Hate Speech (2) |   10K |   1K |   2K | 
 
@@ -118,8 +118,8 @@ To  evaluate  our  models, we  also introduce  **ArBench**,   a new benchmark fo
 |[Zaidan  and  Callison-Burch (2014)](https://www.mitpressjournals.org/doi/full/10.1162/COLI_a_00169)|              AOC (4)              |      Region     |  86.5K | 10.8K | 10.8K |
 |[Farha and Magdy (2020)](https://www.aclweb.org/anthology/2020.osact-1.5/)| ArSarcasm<sub>Dia</sub> (5) |      Regoin     |  8.43K |    -   |  2.11K |
 |[Bouamor et al. (2019)](https://www.aclweb.org/anthology/W19-4622.pdf)|           MADAR-TL (21)           |     Country     | 193K | 26.6K | 43.9K |
-|[Abdul-Mageed,  et  al. (2020)](https://arxiv.org/abs/2010.11334)|             NADI  (21)             |     Country     |  2.1K  |  4.96K |  5K |
-|[Abdul-Mageed,  et  al. (2020)](https://arxiv.org/abs/2010.11334)|             NADI  (100)             |     Province     |  2.1K  |  4.96K |  5K |
+|[Abdul-Mageed  et  al. (2020)](https://arxiv.org/abs/2010.11334)|             NADI  (21)             |     Country     |  2.1K  |  4.96K |  5K |
+|[Abdul-Mageed  et  al. (2020)](https://arxiv.org/abs/2010.11334)|             NADI  (100)             |     Province     |  2.1K  |  4.96K |  5K |
 |[Abdelali et al. (2020)](https://arxiv.org/abs/2005.06557)|             QADI  (18)             |     Country     | 498K |   --   |  3.5K |
 
 ### 2.5 Named Entity Recogntion
