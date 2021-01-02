@@ -73,10 +73,10 @@ To  evaluate  our  models, we  also introduce  **ArBench**,   a new benchmark fo
 |[Elmadany et al. (2018)](https://www.semanticscholar.org/paper/ArSAS-%3A-An-Arabic-Speech-Act-and-Sentiment-Corpus-Elmadany-Mubarak/d32d3bb226f1738f72c415c6b03b5ad66ff604a4)|ArSAS (3)                           |  24.7K | -      |  3.6K | 
 |[Baly et al. (2019)](https://arxiv.org/abs/1906.01830)|ArsenTD-LEV (5)                     |   3.2K | -      |    801 | 
 |[Nabil et al. (2015)](https://www.aclweb.org/anthology/D15-1299)|ASTD (3)                            |  24.7K | -      |    664 | 
-|[Nabil et al. (2015)](https://www.aclweb.org/anthology/D15-1299)|ASTD-B (2)                           |   1.06K | --     |    267 | 
+|[Nabil et al. (2015)](https://www.aclweb.org/anthology/D15-1299)|ASTD-B (2)                           |   1.06K | -     |    267 | 
 |[AbdulMageed and Diab (2012)](https://www.aclweb.org/anthology/L12-1630/)|AWATIF (4)                           |   2.28K |    288 |    284 | 
 |[Salameh et al. (2015)](https://www.aclweb.org/anthology/N15-1078)|BBN (3)                              |     960 |    125 |    116 | 
-|[Aly and Atiya (2013) ](https://www.springerprofessional.de/en/hotel-arabic-reviews-dataset-construction-for-sentiment-analysis/15234334)|HARD (2)                            |  84.5K | -      | 21.1K | 
+|[Ashraf et al. (2018) ](https://www.springerprofessional.de/en/hotel-arabic-reviews-dataset-construction-for-sentiment-analysis/15234334)|HARD (2)                            |  84.5K | -      | 21.1K | 
 |[Nabil et al. (2015)](http://www.aclweb.org/anthology/P/P13/P13-2088.pdf)|LABR (2)                            |  13.1K |        |  3.28K | 
 |[AbdulMageed and Diab (2014)](https://cl.indiana.edu/~skuebler/papers/wassa12.pdf)|SAMAR(5)                            |   2.49K |    310 |    316 | 
 |[Rosenthal  et al. (2017)](https://www.aclweb.org/anthology/S17-2088.pdf)|SemEval (3)                         |  24.7K | -      |  6.10K | 
