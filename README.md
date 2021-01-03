@@ -86,16 +86,16 @@ To  evaluate  our  models, we  also introduce  **ArBench**,   a new benchmark fo
 
 ### 2.2 Social Meaning
 
-|**Reference**| **Data  (#classes)**                    | **TRAIN**   | **DEV**    | **TEST**   | 
-|-------------------------------------|---------|--------|--------|-------|
-|[Zaghouani and Charfi (2018)](https://arxiv.org/abs/1808.07674)| Arap-Tweet - Age (3)     | 1.28M | 160K | 160K | 
-|[Zaghouani and Charfi (2018)](https://arxiv.org/abs/1808.07674)| Arap-Tweet - Gender (2)   | 1.28M | 160K | 160K |
-|[Abdul-Mageed et al. (2020b)](https://www.aclweb.org/anthology/2020.osact-1.3)| AraNET<sub>Emo</sub> - Emotion (8)   |  189K |    911 |    942 | 
-|[Abu Farha and Magdy (2017)](https://www.aclweb.org/anthology/2020.osact-1.5)| AraSarcasm  - Sarcasm (2)   |   8.4K | -      |  2.1K | 
-|[Alshehri et al. (2020a)](https://www.aclweb.org/anthology/volumes/2020.osact-1/)| AraDang (2)  |    3.4K |    616 |    664 | 
-|[Ghanem et al. (2019)](http://ceur-ws.org/Vol-2517/T4-1.pdf)| FIRE2019 - Irony (2)    |    3.6K | -      |    404 | 
-|[Mubarak et al. (2020)](https://www.aclweb.org/anthology/2020.osact-1.7)| OSACT-A - Offensive (2)  |   10K |   1K |   2K | 
-|[Mubarak et al. (2020)](https://www.aclweb.org/anthology/2020.osact-1.7)| OSACT-B - Hate Speech (2) |   10K |   1K |   2K | 
+|**Reference**|  **Task**  |**Data  (#classes)**                    | **TRAIN**   | **DEV**    | **TEST**   | 
+|----------------------| ---------------|---------|--------|--------|-------|
+|[Zaghouani and Charfi (2018)](https://arxiv.org/abs/1808.07674)|Age| Arap-Tweet  (3)     | 1.28M | 160K | 160K | 
+|[Zaghouani and Charfi (2018)](https://arxiv.org/abs/1808.07674)| Gender| Arap-Tweet  (2)   | 1.28M | 160K | 160K |
+|[Abdul-Mageed et al. (2020b)](https://www.aclweb.org/anthology/2020.osact-1.3)| Emotion | AraNET<sub>Emo</sub> (8)   |  189K |    911 |    942 | 
+|[Abu Farha and Magdy (2017)](https://www.aclweb.org/anthology/2020.osact-1.5)|Sarcasm  | AraSarcasm  (2)   |   8.4K | -      |  2.1K | 
+|[Alshehri et al. (2020a)](https://www.aclweb.org/anthology/volumes/2020.osact-1/)| Dangerous Speech |AraDang (2)  |    3.4K |    616 |    664 | 
+|[Ghanem et al. (2019)](http://ceur-ws.org/Vol-2517/T4-1.pdf)| Irony | FIRE2019 (2)    |    3.6K | -      |    404 | 
+|[Mubarak et al. (2020)](https://www.aclweb.org/anthology/2020.osact-1.7)|Offensive Speech | OSACT-A - Offensive (2)  |   10K |   1K |   2K | 
+|[Mubarak et al. (2020)](https://www.aclweb.org/anthology/2020.osact-1.7)| Hate Speech| OSACT-B -  (2) |   10K |   1K |   2K | 
 
 
 ### 2.3 Topic Classification
