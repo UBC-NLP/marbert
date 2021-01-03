@@ -32,7 +32,7 @@ The rest of this repository provides more information about our new language mod
   - [3.5 Named Entity Recogntion (NER)](#35-named-entity-recogntion)
 - [4. How to use ARBERT and MARBERT](#4-how-to-use-arbert-and-marbert)
 - [5. Ethics](#5-ethics)
-- [6. Download ARBERT and MARBERT](#6-download-arbert-and-marbert)
+- [6. Download ARBERT and MARBERT Checkpoints](#6-download-arbert-and-marbert-checkpoints)
 - [7. Citation](#7-citation)
 - [8. Acknowledgments](#8-acknowledgments)
 ---
@@ -257,12 +257,14 @@ You should be careful about using Twitter data to derive or infer potentially se
 
 ---
 
-## 6. Download ARBERT and MARBERT
-ARBERT and MARBERT are available on Huggingface website for direct download and use ```exclusively for research```.
+## 6. Download ARBERT and MARBERT Checkpoints
+ARBERT and MARBERT Pytorch and Tenserflow checkpoints are available on Huggingface website for direct download and use ```exclusively for research```.
 `For commercial use, please contact the authors via email @ (*muhammad.mageed[at]ubc[dot]ca*).`
-- ARBERT can be downloaded [here](https://huggingface.co/UBC-NLP/ARBERT).
-- MARBERT can be downloaded [here](https://huggingface.co/UBC-NLP/MARBERT).
 
+| **Model**   | **Pytorch Checkpoint** | **Tensorflow Checkpoint** |
+|---------|:------------------:|:---------------:|
+| **ARBERT**  |      [Download](https://huggingface.co/UBC-NLP/ARBERT/blob/main/ARBERT_pytorch_verison.tar.gz)      |     [Download](https://huggingface.co/UBC-NLP/ARBERT/blob/main/ARBERT_tensorflow_version.tar.gz)    |
+| **MARBERT** |      [Download](https://huggingface.co/UBC-NLP/MARBERT/blob/main/MARBERT_pytorch_verison.tar.gz)      |     [Download](https://huggingface.co/UBC-NLP/MARBERT/blob/main/MARBERT_tensorflow_version.tar.gz)    |
 ---
 
 ## 7. Citation
