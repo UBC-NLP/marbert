@@ -263,8 +263,8 @@ ARBERT and MARBERT Pytorch and Tenserflow checkpoints are available on Huggingfa
 
 | **Model**   | **Pytorch Checkpoint** | **Tensorflow Checkpoint** |
 |---------|:------------------:|:---------------:|
-| **ARBERT**  |      [Download](https://huggingface.co/UBC-NLP/ARBERT/blob/main/ARBERT_pytorch_verison.tar.gz)      |     [Download](https://huggingface.co/UBC-NLP/ARBERT/blob/main/ARBERT_tensorflow_version.tar.gz)    |
-| **MARBERT** |      [Download](https://huggingface.co/UBC-NLP/MARBERT/blob/main/MARBERT_pytorch_verison.tar.gz)      |     [Download](https://huggingface.co/UBC-NLP/MARBERT/blob/main/MARBERT_tensorflow_version.tar.gz)    |
+| **ARBERT**  |      [Download](https://huggingface.co/UBC-NLP/ARBERT/resolve/main/ARBERT_pytorch_verison.tar.gz)      |     [Download](https://huggingface.co/UBC-NLP/ARBERT/resolve/main/ARBERT_tensorflow_version.tar.gz)    |
+| **MARBERT** |      [Download](https://huggingface.co/UBC-NLP/MARBERT/resolve/main/MARBERT_pytorch_verison.tar.gz)      |     [Download](https://huggingface.co/UBC-NLP/MARBERT/blob/main/MARBERT_tensorflow_version.tar.gz)    |
 ---
 
 ## 7. Citation
