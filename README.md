@@ -217,6 +217,7 @@ When fine-tuned on ArBench,  ARBERT and MARBERT collectively achieve new SOTA  w
 
 ## 4. How to use ARBERT and MARBERT
 
+### 4.1 Loading directly from Huggingface
 You can use ARBERT and MARBERT with [Hugging Face's Transformers](https://github.com/huggingface/transformers) library as follow.
  
  ```python
@@ -229,8 +230,8 @@ You can use ARBERT and MARBERT with [Hugging Face's Transformers](https://github
     MARBERT_tokenizer = AutoTokenizer.from_pretrained("UBC-NLP/MARBERT")
     MARBERT_model = AutoModel.from_pretrained("UBC-NLP/MARBERT") 
  ```
-
----
+### 4.2 Example: Fine-tuning MARBERT for Sentiment Analysis
+`MARBERT Fine-Tuning demo with PyTorch checkpoint for Sentiment Analysis on the AJGT dataset [Colab](https://colab.research.google.com/drive/1M0ls7EPUi1dwqIDh6HNfJ5y826XvcgGX?usp=sharing)`
 
 ## 5. Ethics
 
