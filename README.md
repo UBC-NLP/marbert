@@ -272,9 +272,9 @@ ARBERT and MARBERT Pytorch and Tenserflow checkpoints are available on Huggingfa
 If you use our models (ARBERT or MARBERT) for your scientific publication, or if you find the resources in this repository useful, please cite our paper as follows (to be updated):
 ```
 @article{mageed2020marbert,
-  title={ARBERT & MARBERT: Deep Bidirectional Transformers for Arabic},
-  author={Abdul-Mageed, Muhammad and Elmadany, AbdelRahim, and Nagoudi, El Moatez Billah},
-  journal={arXiv preprint},
+  title={ARBERT \& MARBERT: Deep Bidirectional Transformers for Arabic},
+  author={Abdul-Mageed, Muhammad and Elmadany, AbdelRahim and Nagoudi, El Moatez Billah},
+  journal={arXiv preprint arXiv:2101.01785},
   year={2020}
 }
 ```
