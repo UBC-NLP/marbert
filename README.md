@@ -2,7 +2,7 @@
 <img src="ARBERT_MARBERT.jpg" alt="drawing" width="30%" height="30%" align="right"/>
 
 # What is the repository is about?
-This is the repository accompanying our paper [ARBERT & MARBERT: Deep Bidirectional Transformers for Arabic](https://mageed.arts.ubc.ca/files/2020/12/marbert_arxiv_2020.pdf).
+This is the repository accompanying our paper [ARBERT & MARBERT: Deep Bidirectional Transformers for Arabic](https://aclanthology.org/2021.acl-long.551/).
 In the paper, we:
 * introduce ```ARBERT``` and ```MARBERT```, two powerful Transformer-based language models for Arabic;
 * introduce ```ArBench```, a multi-domain, multi-variety benchmark for Arabic naturaal language understanding based on 41 datasets across 5 different tasks and task clusters;
