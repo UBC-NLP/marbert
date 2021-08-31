@@ -231,7 +231,7 @@ You can use ARBERT and MARBERT with [Hugging Face's Transformers](https://github
     MARBERT_model = AutoModel.from_pretrained("UBC-NLP/MARBERT") 
  ```
 ### 4.2 Example: Fine-tuning MARBERT for Sentiment Analysis
-MARBERT Fine-Tuning demo with PyTorch checkpoint for Sentiment Analysis on the AJGT dataset [![Open In Colab][COLAB]](https://colab.research.google.com/drive/1M0ls7EPUi1dwqIDh6HNfJ5y826XvcgGX?usp=sharing)
+MARBERT Fine-Tuning demo with PyTorch checkpoint for Sentiment Analysis on the AJGT dataset [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1M0ls7EPUi1dwqIDh6HNfJ5y826XvcgGX?usp=sharing)
 
 ## 5. Ethics
 
